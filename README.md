@@ -1,4 +1,4 @@
-# ACM UCR Website Template
+# HIGHLANDER SPACE PROGRAM AT UCR WEBSITE
 
 ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -11,11 +11,11 @@
 
 ## Figma
 
-[ACM UCR Website Template Figma Design File](https://www.figma.com/)
+[HSP FIGMA DESIGN FILE](https://www.figma.com/file/1W8TsDokg8Kz3NQmofNfbr/HighlanderSpaceProgramWebsite?type=design&node-id=0%3A1&mode=design&t=DRYwJ4rKbR5m8XVA-1)
 
 ## Node.js
 
-ACM UCR Website Template runs on Node.js Version 20.10.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
+HSP UCR Website runs on Node.js Version 20.10.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
 
 ## Next.js
 
