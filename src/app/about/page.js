@@ -1,7 +1,13 @@
 import React from "react";
+import Us from "@/components/about/Us";
 
 const page = () => {
-  return <div>page</div>;
+  return (
+    <div>
+      {" "}
+      <Us />{" "}
+    </div>
+  );
 };
 
 export default page;
