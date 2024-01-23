@@ -32,24 +32,27 @@ const Footer = () => {
         </div>
         <div className="grid grid-cols-2 text-5xl text-white h-5/6 hover:curson-pointer ">
           <div className="flex justify-between flex-col items-center">
-            <Link href="https://github.com/acm-ucr/hsp-website/pull/16/files">
+            <Link
+              className="text-white "
+              href="https://github.com/acm-ucr/hsp-website/pull/16/files"
+            >
               <FaInstagram />
             </Link>
-            <Link href="discord-link">
+            <Link className="text-white" href="discord-link">
               <FaDiscord />
             </Link>
-            <Link href="youtube-link">
+            <Link className="text-white" href="youtube-link">
               <FaYoutube />
             </Link>
           </div>
           <div className="flex justify-between flex-col items-start">
-            <Link href="slack-link">
+            <Link className="text-white" href="slack-link">
               <FaSlack />
             </Link>
-            <Link href="email-link">
+            <Link className="text-white" href="email-link">
               <FaEnvelope />
             </Link>
-            <Link href="medium-link">
+            <Link className="text-white" href="medium-link">
               <FaMediumM />
             </Link>
           </div>
