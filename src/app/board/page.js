@@ -2,9 +2,9 @@ import React from "react";
 import LeadTitle from "@/components/board/LeadTitle";
 
 const page = () => {
-  const Name1 = "executive leads";
+  const Name = "executive leads";
 
-  return <LeadTitle Name={Name1} />;
+  return <LeadTitle Name={Name} />;
 };
 
 export default page;

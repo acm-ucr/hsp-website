@@ -1,9 +1,10 @@
 import React from "react";
 
-const LeadTitle = (props) => {
+const LeadTitle = ({ Name }) => {
   return (
-    <div className="text-center text-2xl text-decoration-line: underline underline-offset-8">
-      {props.Name}
+    <div className="Leads-Title-Container text-center text-4xl font-montserrat pt-2.5 -pb-1.5">
+      {Name}
+      <hr className="w-1/4 h-0.5 mx-auto bg-black border-0" />
     </div>
   );
 };
