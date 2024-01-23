@@ -16,11 +16,11 @@ const Profile = ({
   pronouns,
 }) => {
   return (
-    <div className="border-2 border-black font-poppins bg-white w-72 h-auto rounded-xl">
+    <div className="border-2 border-black font-poppins bg-white w-full h-auto rounded-xl">
       <Image
         src={image}
         alt="Picture of board member"
-        className="rounded-xl border-2 border-black mt-3 mr-auto ml-auto w-60 h-58"
+        className=" mt-3 mr-auto ml-auto"
       />
       <div className="ml-5">
         <div className="font-bold text-xl mt-3">{name}</div>
