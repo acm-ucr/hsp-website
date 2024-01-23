@@ -1,5 +1,12 @@
+import React from "react";
+import PageTitle from "@/components/PageTitle";
+
 const Home = () => {
-  return <>Hello World</>;
+  return (
+    <>
+      <PageTitle PageTitle="Title" />
+    </>
+  );
 };
 
 export default Home;
