@@ -1,3 +1,4 @@
+import React from "react";
 import logo from "@/public/assets/FooterLogo.svg";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,41 +14,48 @@ import {
 
 const Footer = () => {
   return (
-    <div className="bg-black flex w-full pl-6 pb-10 pt-24 pr-28">
-      <div className="grid grid-cols-9 text-white justify-between">
-        <div className="flex justify-start mr-10 col-span-4 w-full">
-          <Image src={logo} />
-        </div>
-        <div className="font-montserrat flex flex-col space-y-8 min-w-fit text-right pt-7 mb-6 ml-18 col-span-3">
-          <div className="text-xl font-semibold">contact us!</div>
-          <div className="text-xl font-semibold pb-10">
-            Winston Chung Hall, 446 N Campus Dr, Riverside, CA 92507
+    <div className="grid grid-cols-2 gap-8 text-white bg-black w-full pt-24 pb-4">
+      <div className="flex justify-start ">
+        <Image src={logo} />
+      </div>
+      <div className="grid grid-cols-3 divide-x-4 divide-white justify-center items-center ">
+        <div className="font-montserrat h-5/6 grid col-span-2 justify-center items-center ">
+          <div className="text-xl font-semibold flex justify-end">
+            contact us!
           </div>
-          <div className="text-xl font-semibold">714-749-5576</div>
+          <div className="text-xl font-semibold flex justify-end">
+            Winston Chung Hall, 446 N Campus Dr, <br /> Riverside, CA 92507
+          </div>
+          <div className="text-xl font-semibold flex justify-end">
+            714-749-5576
+          </div>
         </div>
-        <div className="bg-white w-1 h-52 flex justify-start mt-7 ml-16"></div>
-        <div
-          className="grid grid-cols-2 gap-10 space-x-2 text-5xl mt-7 w-5/6 h-5/6"
-          style={{ cursor: "pointer" }}
-        >
-          <Link href="instagram-link">
-            <FaInstagram />
-          </Link>
-          <Link href="discord-link">
-            <FaDiscord />
-          </Link>
-          <Link href="youtube-link">
-            <FaYoutube />
-          </Link>
-          <Link href="slack-link">
-            <FaSlack />
-          </Link>
-          <Link href="email-link">
-            <FaEnvelope />
-          </Link>
-          <Link href="medium-link">
-            <FaMediumM />
-          </Link>
+        <div className="grid grid-cols-2 text-5xl h-5/6 hover:curson-pointer ">
+          <div className="flex justify-between flex-col items-center">
+            <Link
+              className="text-white"
+              href="https://github.com/acm-ucr/hsp-website/pull/16/files"
+            >
+              <FaInstagram />
+            </Link>
+            <Link className="text-white" href="discord-link">
+              <FaDiscord />
+            </Link>
+            <Link className="text-white" href="youtube-link">
+              <FaYoutube />
+            </Link>
+          </div>
+          <div className="flex justify-between flex-col items-start">
+            <Link className="text-white" href="slack-link">
+              <FaSlack />
+            </Link>
+            <Link className="text-white" href="email-link">
+              <FaEnvelope />
+            </Link>
+            <Link className="text-white" href="medium-link">
+              <FaMediumM />
+            </Link>
+          </div>
         </div>
       </div>
     </div>
