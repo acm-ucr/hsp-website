@@ -4,7 +4,7 @@ import Image3 from "@/public/assets/about/mission3.svg";
 
 const texts = [
   {
-    title: "Space Program",
+    title: "space program",
     img: Image1,
     para: [
       "HSP seeks to promote public awareness and interest in the field through various outreach activities, such as recorded demonstrations, tabling, and educational events.",
@@ -12,7 +12,7 @@ const texts = [
     ],
   },
   {
-    title: "Our Mission",
+    title: "our mission",
     img: Image2,
     para: [
       "Provide members with valuable learning experiences and enhance their understanding of the practical applications of the theories and principles of aerospace engineering.",
@@ -20,7 +20,7 @@ const texts = [
     ],
   },
   {
-    title: "Our Vision",
+    title: "our vision",
     img: Image3,
     para: [
       "HSP is committed to maintaining an inclusive and welcoming environment that values diversity of thought and respects the rights and dignity of all its members. HSP shall operate in accordance with the relevant laws and regulations and shall be guided by its Constitution and Bylaws.",
