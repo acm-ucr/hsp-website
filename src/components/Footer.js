@@ -30,29 +30,26 @@ const Footer = () => {
             714-749-5576
           </div>
         </div>
-        <div className="grid grid-cols-2 text-5xl h-5/6 hover:curson-pointer ">
+        <div className="grid grid-cols-2 text-5xl text-white h-5/6 hover:curson-pointer ">
           <div className="flex justify-between flex-col items-center">
-            <Link
-              className="text-white"
-              href="https://github.com/acm-ucr/hsp-website/pull/16/files"
-            >
+            <Link href="https://github.com/acm-ucr/hsp-website/pull/16/files">
               <FaInstagram />
             </Link>
-            <Link className="text-white" href="discord-link">
+            <Link href="discord-link">
               <FaDiscord />
             </Link>
-            <Link className="text-white" href="youtube-link">
+            <Link href="youtube-link">
               <FaYoutube />
             </Link>
           </div>
           <div className="flex justify-between flex-col items-start">
-            <Link className="text-white" href="slack-link">
+            <Link href="slack-link">
               <FaSlack />
             </Link>
-            <Link className="text-white" href="email-link">
+            <Link href="email-link">
               <FaEnvelope />
             </Link>
-            <Link className="text-white" href="medium-link">
+            <Link href="medium-link">
               <FaMediumM />
             </Link>
           </div>
