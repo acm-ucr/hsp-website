@@ -2,9 +2,12 @@ import React from "react";
 import LeadTitle from "@/components/board/LeadTitle";
 
 const page = () => {
-  const Name = "executive leads";
-
-  return <LeadTitle Name={Name} />;
+  return (
+    <div>
+      <LeadTitle Name={"executive"} />
+      <LeadTitle Name={"technical"} />
+    </div>
+  );
 };
 
 export default page;
