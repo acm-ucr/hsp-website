@@ -1,11 +1,9 @@
 import React from "react";
-import LeadTitle from "@/components/board/LeadTitle";
-
+import Team from "@/components/board/Team";
 const page = () => {
   return (
     <div>
-      <LeadTitle Name={"executive"} />
-      <LeadTitle Name={"technical"} />
+      <Team />
     </div>
   );
 };
