@@ -16,24 +16,24 @@ const Profile = ({
   pronouns,
 }) => {
   return (
-    <div className="border-2 border-black font-poppins bg-white w-72 h-auto rounded-xl">
+    <div className="border-3 border-black bg-white w-72 h-auto rounded-xl">
       <Image
         src={image}
         alt="Picture of board member"
-        className="rounded-xl border-2 border-black mt-3 mr-auto ml-auto w-60 h-58"
+        className="mt-3 mr-auto ml-auto w-60 h-58"
       />
       <div className="ml-5">
-        <div className="font-bold text-xl mt-3">{name}</div>
-        <div className="text-l">{title}</div>
-        <div className="flex space-x-2">
+        <div className="font-bold font-montserrat text-xl mt-3">{name}</div>
+        <div className="text-l font-urbanist">{title}</div>
+        <div className="flex space-x-2 ">
           <Link href={email}>
-            <MdEmail className="h-8 w-8 text-slate-800" />
+            <MdEmail className="h-8 w-8 text-slate-800 " />
           </Link>
           <Link href={linkedin}>
-            <GrLinkedinOption className="h-7 w-7 text-slate-800" />
+            <GrLinkedinOption className="h-7 w-7 text-slate-800 " />
           </Link>
         </div>
-        <div className="text-l">
+        <div className="text-l font-urbanist">
           {year}
           &nbsp;
           {major}
