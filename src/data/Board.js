@@ -7,6 +7,8 @@ import Joel from "@/public/assets/board/Joel.svg";
 import Khulan from "@/public/assets/board/Khulan.svg";
 import Marlon from "@/public/assets/board/Marlon.svg";
 import Mehmet from "@/public/assets/board/Mehmet.svg";
+import Theopolis from "@/public/assets/board/Theopolis.svg";
+import Uma from "@/public/assets/board/Uma.svg";
 
 export const BOARD = [
   [
@@ -44,7 +46,7 @@ export const BOARD = [
       name: "Uma Akundi",
       email: "uakun001@ucr.edu",
       title: "Social Media Lead",
-      image: {},
+      image: { Uma },
       year: "2nd year",
       major: "Computer Engineering",
       pronouns: "She/Her/Hers",
@@ -76,7 +78,7 @@ export const BOARD = [
       name: "Theopolis Armstrong",
       email: "rfair008@ucr.edu",
       title: "Avionics Co-Lead",
-      image: {},
+      image: { Theopolis },
       year: "2nd year",
       major: "Computer Science",
       pronouns: "They/Them/Theirs",
