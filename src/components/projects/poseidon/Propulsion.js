@@ -27,6 +27,8 @@ const Propulsion = () => {
         </div>
       </div>
       <br />
+      <div className="h-0.5 bg-black w-3/5"> </div>
+      <br />
       <div className="grid grid-cols-2 justify-center w-full gap-20">
         <div className="flex flex-col text-center justify-center items-end">
           <div className="my-2 text-2xl w-7/12 font-thin text-gray-700 font-montserrat">
@@ -44,6 +46,7 @@ const Propulsion = () => {
           <Image alt="" src={image2} />
         </div>
       </div>
+      <br />
     </div>
   );
 };
