@@ -7,6 +7,4 @@ const Home = () => {
       <PageTitle PageTitle="Title" />
     </>
   );
-};
-
 export default Home;
