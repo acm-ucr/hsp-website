@@ -12,14 +12,16 @@ const page = () => {
   const newTexts = texts.slice(1, texts.length - 1);
 
   return (
-    <div>
-      <div className="mx-72 my-10">
-        <div className="grid grid-cols-2">
-          <div>
+    <div className="flex justify-center flex-col items-center">
+      <div className=" w-8/12">
+        <div className="grid grid-cols-3 my-8">
+          <div className="flex justify-start">
             <Image src={Image1} alt="building rocket" />
           </div>
 
-          <Description key={0} title={first.heading} texts={first.para} />
+          <div className=" justify-start items-center grid col-span-2">
+            <Description key={0} title={first.heading} texts={first.para} />
+          </div>
         </div>
 
         <div>
@@ -32,10 +34,11 @@ const page = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-2">
-          <Description key={0} title={last.heading} texts={last.para} />
-
-          <div>
+        <div className="grid grid-cols-3 ">
+          <div className=" grid col-span-2">
+            <Description key={0} title={last.heading} texts={last.para} />
+          </div>
+          <div className="flex justify-center items-center">
             <Image src={Image2} alt="college ranking" />
           </div>
         </div>
