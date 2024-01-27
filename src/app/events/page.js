@@ -1,7 +1,12 @@
 import React from "react";
+import Event from "@/components/events/Event";
 
 const page = () => {
-  return <div>page</div>;
+  return (
+    <div>
+      <Event />
+    </div>
+  );
 };
 
 export default page;
