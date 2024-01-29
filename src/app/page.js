@@ -1,11 +1,6 @@
-import Contact from "@/components/donate/Contact";
+import React from "react";
 
 const Home = () => {
-  return (
-    <>
-      <Contact />
-    </>
-  );
+  return <></>;
 };
-
 export default Home;
