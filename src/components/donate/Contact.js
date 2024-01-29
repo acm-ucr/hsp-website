@@ -2,30 +2,28 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div>
-      <p className="text-7xl font-urbanist text-center">Contact Us</p>
+    <div className=" text-center">
+      <div className="text-6xl font-urbanist font-bold ">Contact Us</div>
+      <div className=" font-sans text-xl">
+        <div className="mb-10">highlanderspaceprogram@gmail.com </div>
 
-      <p className="mb-14 font-sans text-center">
-        {" "}
-        highlanderspaceprogram@gmail.com{" "}
-      </p>
+        <div className="font-extrabold">Javen Dosanjh</div>
 
-      <div className="mb-5 font-sans font-bold text-center">Javen Dosanjh</div>
+        <div>President/Chief Engineer</div>
+        <div>jdos001@ucr.edu</div>
+        <div>(916)-840-8409</div>
 
-      <p className="mb-1 font-sans text-center">President/Chief Engineer</p>
-      <p className="mb-1 text-center">jdos001@ucr.edu</p>
-      <p className="mb-5 text-center">(916)-840-8409</p>
+        <div className="font-bold mt-10">Jordy Hendra</div>
 
-      <div className="mb-5 font-bold text-center">Jordy Hendra</div>
+        <div>Vice President</div>
+        <div>jhend060@ucr.edu</div>
 
-      <p className="mb-1 font-sans text-center">Vice President</p>
-      <p className="mb-5 text-center">jhend060@ucr.edu</p>
+        <div className="mt-10">Winston Chung Hall, 446</div>
 
-      <p className="mb-1 text-center">Winston Chung Hall, 446</p>
+        <div>N Campus Dr, Riverside</div>
 
-      <p className="mb-1 text-center">N Campus Dr, Riverside</p>
-
-      <p className="mb-1 text-center">CA 92507</p>
+        <div>CA 92507</div>
+      </div>
     </div>
   );
 };
