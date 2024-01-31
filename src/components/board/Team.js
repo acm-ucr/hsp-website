@@ -39,7 +39,7 @@ const Team = () => {
         ))}
       </div>
       <div className="grid grid-cols-3 w-3/5 bg-red-200 justify-items-center pt-2 pb-4">
-      {BOARD[2].map((person, index) => (
+        {BOARD[2].map((person, index) => (
           <Profile
             key={index}
             name={person.name}
