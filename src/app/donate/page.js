@@ -6,7 +6,7 @@ import Image from "next/image";
 import Image1 from "@/public/assets/donate/donate1.svg";
 import Image2 from "@/public/assets/donate/donate2.svg";
 import PageTitle from "@/components/PageTitle";
-
+import Contact from "@/components/donate/Contact";
 const page = () => {
   const first = texts[0];
   const last = texts[texts.length - 1];
@@ -47,6 +47,7 @@ const page = () => {
       </div>
 
       <Donate />
+      <Contact />
     </div>
   );
 };
