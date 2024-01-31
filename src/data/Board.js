@@ -1,3 +1,4 @@
+import Javen from "@/public/assets/board/Javen.svg";
 export const BOARD = [
   [
     {

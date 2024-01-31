@@ -1,67 +1,43 @@
 import React from "react";
 import Profile from "@/components/board/Profile";
-import Javen from "@/public/assets/board/Javen.svg";
+import LeadTitle from "./LeadTitle";
+import BOARD from "@/data/Board";
 const Team = () => {
   return (
-    <div>
-      <div className="font-montserrat flex justify-center text-4xl font-light ">
-        <div className="w-1/4 border-b border-black flex justify-center h-14">
-          executive leads
-        </div>
+    <div className="flex flex-col justify-center items-center bg-green-500 w-full">
+      <LeadTitle Name="executive" />
+      <div className="bg-red-200 w-full justify-center items-center grid grid-cols-4">
+        {BOARD[0].map((person, index) => (
+          <Profile
+            key={index}
+            name={person.name}
+            title={person.title}
+            image={person.image}
+            email={person.email}
+            linkedin={person.linkedin}
+            year={person.year}
+            major={person.major}
+            pronouns={person.pronouns}
+          />
+        ))}
       </div>
-      <br />
-      <div className="flex justify-center items-center bg-green-200">
-        <div className="grid grid-cols-4 gap-7 justify-center items-center bg-red-200">
-          <div>
-            <Profile
-              name="Javen Dosanjh"
-              email="rfair008@ucr.edu"
-              title="Vice President"
-              image={Javen}
-              year="2nd"
-              major="Computer Science"
-              pronouns="he/him"
-              linkedin="linkedin.com"
-            />
-          </div>
-          <div>
-            <Profile
-              name="Javen Dosanjh"
-              email="rfair008@ucr.edu"
-              title="Vice President"
-              image={Javen}
-              year="2nd"
-              major="Computer Science"
-              pronouns="he/him"
-              linkedin="linkedin.com"
-            />
-          </div>
-          <div>
-            <Profile
-              name="Javen Dosanjh"
-              email="rfair008@ucr.edu"
-              title="Vice President"
-              image={Javen}
-              year="2nd"
-              major="Computer Science"
-              pronouns="he/him"
-              linkedin="linkedin.com"
-            />
-          </div>
-          <div>
-            <Profile
-              name="Javen Dosanjh"
-              email="rfair008@ucr.edu"
-              title="Vice President"
-              image={Javen}
-              year="2nd"
-              major="Computer Science"
-              pronouns="he/him"
-              linkedin="linkedin.com"
-            />
-          </div>
-        </div>
+      <LeadTitle Name="technical" />
+      <div className="bg-red-200 w-full justify-center items-center grid grid-cols-4">
+        {BOARD[0].map((person, index) => (
+          <Profile
+            key={index}
+            name={person.name}
+            title={person.title}
+            image={person.image}
+            email={person.email}
+            linkedin={person.linkedin}
+            year={person.year}
+            major={person.major}
+            pronouns={person.pronouns}
+          />
+        ))}
       </div>
+      <div className="grid grid-cols-4"></div>
     </div>
   );
 };
