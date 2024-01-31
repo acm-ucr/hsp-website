@@ -6,7 +6,21 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        urbanist: ["var(--font-urbanist)"],
+        montserrat: ["var(--font-montserrat)"],
+        sans: ["Arial"],
+      },
+      colors: {
+        hsp: {
+          orange: "#E47300",
+          yellow: "#F2AA03",
+          gray: "#393B42",
+          blue: "#2E6CC0",
+        },
+      },
+    },
   },
   plugins: [],
 };
