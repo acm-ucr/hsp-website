@@ -7,7 +7,7 @@ const Team = () => {
     <div className="flex flex-col justify-center items-center w-full my-10">
       <LeadTitle Name="executive" />
       <br />
-      <div className="flex flex-wrap items-center justify-center w-10/12 space-x-4 space-y-4">
+      <div className="flex flex-wrap items-end justify-center w-10/12 space-x-4 space-y-4">
         {BOARD[0].map((person, index) => (
           <Profile
             key={index}
@@ -24,7 +24,7 @@ const Team = () => {
       </div>
       <LeadTitle Name="technical" />
       <br />
-      <div className="flex flex-wrap items-center justify-center w-10/12 space-x-4 space-y-4">
+      <div className="flex flex-wrap items-end justify-center w-10/12 space-x-4 space-y-4">
         {BOARD[1].map((person, index) => (
           <Profile
             key={index}

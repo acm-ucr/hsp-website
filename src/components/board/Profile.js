@@ -16,7 +16,7 @@ const Profile = ({
   pronouns,
 }) => {
   return (
-    <div className="border-3 border-black bg-white w-72 h-auto rounded-xl">
+    <div className="border-3 border-black bg-white w-72 rounded-xl">
       <Image
         src={image}
         alt="Picture of board member"
