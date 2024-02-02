@@ -20,7 +20,7 @@ const Profile = ({
       <Image
         src={image}
         alt="Picture of board member"
-        className="mt-3 mr-auto ml-auto w-60 h-58"
+        className="mt-3 mr-auto ml-auto"
       />
       <div className="ml-5">
         <div className="font-bold font-montserrat text-xl mt-3">{name}</div>
