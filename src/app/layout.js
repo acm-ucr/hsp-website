@@ -2,7 +2,7 @@
 import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Urbanist, Montserrat } from "next/font/google";
-// import Navigation from "@/components/Navigation";
+import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 export const metadata = {
   title: "HSP @ UCR",
@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${urbanist.variable} ${montserrat.variable}`}>
-        {/* <Navigation /> */}
+        <Navigation />
         <div className="">{children}</div>
         <Footer />
       </body>

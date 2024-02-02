@@ -8,14 +8,13 @@ const Mission = ({ title, img, texts }) => {
         {title}
       </div>
 
-      <div className="ml-16">
+      <div className="flex justify-center items-center">
         <Image src={img} alt="hsp building and testing rockets" />
       </div>
-
       {texts.map((text, index) => (
         <div
           key={index}
-          className="font-montserrat text-white text-center text-lg font-black mt-8 mx-16"
+          className="font-montserrat text-white flex justify-between items-center text-center text-lg font-semibold mt-8 "
         >
           <p>{text}</p>
         </div>
