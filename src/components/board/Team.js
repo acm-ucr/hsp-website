@@ -4,10 +4,10 @@ import LeadTitle from "./LeadTitle";
 import BOARD from "@/data/Board";
 const Team = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-green-500 w-full">
+    <div className="flex flex-col justify-center items-center w-full my-10">
       <LeadTitle Name="executive" />
       <br />
-      <div className="grid grid-cols-4 bg-red-200 w-10/12 justify-items-center">
+      <div className="flex flex-wrap items-center justify-center w-10/12 space-x-4 space-y-4">
         {BOARD[0].map((person, index) => (
           <Profile
             key={index}
@@ -23,7 +23,8 @@ const Team = () => {
         ))}
       </div>
       <LeadTitle Name="technical" />
-      <div className="bg-red-200 w-10/12 justify-items-center grid grid-cols-4">
+      <br />
+      <div className="flex flex-wrap items-center justify-center w-10/12 space-x-4 space-y-4">
         {BOARD[1].map((person, index) => (
           <Profile
             key={index}
@@ -38,7 +39,7 @@ const Team = () => {
           />
         ))}
       </div>
-      <div className="grid grid-cols-3 w-3/5 bg-red-200 justify-items-center pt-2 pb-4">
+      {/* <div className="grid grid-cols-3 bg-red-200 justify-items-center pt-2 pb-4">
         {BOARD[2].map((person, index) => (
           <Profile
             key={index}
@@ -52,7 +53,7 @@ const Team = () => {
             pronouns={person.pronouns}
           />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
