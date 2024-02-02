@@ -1,11 +1,11 @@
 import React from "react";
-import Propulsion from "@/components/projects/poseidon/Propulsion";
+import Poseidon from "@/components/projects/poseidon/Poseidon";
 
 const page = () => {
   return (
     <div>
       {" "}
-      <Propulsion />{" "}
+      <Poseidon />{" "}
     </div>
   );
 };

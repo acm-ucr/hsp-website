@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import starBackground from "@/public/assets/starBackground.svg";
+import starBackground from "@/public/assets/starBackground.png";
 
 const PageTitle = ({ title }) => {
   return (
