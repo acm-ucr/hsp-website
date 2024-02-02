@@ -27,19 +27,19 @@ const Navigation = () => {
             className="h-[7vh]"
             alt="WINC at UCR"
           />
-          <div className="text-white text-5xl font-montserrat font-bold">
+          <div className="text-white text-3xl md:text-5xl font-montserrat font-bold">
             HSP
           </div>
         </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbar-nav" />
       <Navbar.Collapse id="navbar-nav">
-        <Nav className="mb-2 w-9/12 no-underline ml-auto text-2xl">
+        <Nav className="mb-2 w-full md:w-9/12 no-underline ml-auto text-2xl">
           <Nav.Link
             as={Link}
             eventkey="6"
             href="/"
-            className="mb-0 py-2 px-3 no-underline ml-auto text-2xl whitespace-nowrap w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer"
+            className="mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer"
           >
             about
           </Nav.Link>
@@ -47,7 +47,7 @@ const Navigation = () => {
             as={Link}
             eventkey="2"
             href="/board"
-            className="mb-0 py-2 px-3 no-underline ml-auto text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer"
+            className="mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer"
           >
             board
           </Nav.Link>
@@ -55,7 +55,7 @@ const Navigation = () => {
             as={Link}
             eventkey="3"
             href="/events"
-            className="mb-0 py-2 px-3 no-underline ml-auto text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer"
+            className="mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer"
           >
             events
           </Nav.Link>
@@ -63,7 +63,7 @@ const Navigation = () => {
             as={Link}
             eventkey="4"
             href="/donate"
-            className="mb-0 py-2 px-3 no-underline ml-auto text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer"
+            className="mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer"
           >
             donate
           </Nav.Link>
@@ -71,7 +71,7 @@ const Navigation = () => {
             as={Link}
             eventkey="5"
             href="/projects"
-            className="mb-0 py-2 px-3 no-underline ml-auto text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer"
+            className="mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer"
           >
             projects
           </Nav.Link>
@@ -79,7 +79,7 @@ const Navigation = () => {
             as={Link}
             eventkey="6"
             href="/join"
-            className="flex justify-center items-center mb-0 w-full py-1 px-3 no-underline ml-auto text-2xl whitespace-nowrap"
+            className="flex justify-center items-center mb-0 w-full py-1 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap"
           >
             <Button />
           </Nav.Link>
