@@ -2,10 +2,12 @@ import React from "react";
 import Mission from "@/components/about/Mission";
 import Us from "@/components/about/Us";
 import texts from "@/data/Mission";
+import Landing from "@/components/about/Landing";
 
 const page = () => {
   return (
     <div>
+      <Landing />
       <Us />
       <div className="grid grid-cols-3 gap-3 bg-black">
         {texts.map((paragraph, index) => (
