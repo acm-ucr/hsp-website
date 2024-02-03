@@ -5,7 +5,7 @@ const Donate = () => {
   return (
     <Link
       href="#"
-      className="bg-green-600 text-white text-2xl font-bold text-decoration-line: underline flex justify-center items-center rounded-3xl min-w-fit px-4 min-h-fit py-1 hover:scale-110"
+      className="bg-hsp-green text-white text-[60px] font-urbanist font-black underline flex justify-center items-center rounded-[40.5rem] w-[364] h-[81] my-7 px-2.5 py-0 decoration-1 underline-offset-4 hover:scale-110"
     >
       Donate Here
     </Link>
