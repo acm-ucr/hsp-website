@@ -5,7 +5,8 @@ import texts from "@/data/Donate";
 import Image from "next/image";
 import Image1 from "@/public/assets/donate/donate1.svg";
 import Image2 from "@/public/assets/donate/donate2.svg";
-
+import PageTitle from "@/components/PageTitle";
+import Contact from "@/components/donate/Contact";
 const page = () => {
   const first = texts[0];
   const last = texts[texts.length - 1];
@@ -13,6 +14,7 @@ const page = () => {
 
   return (
     <div className="flex justify-center flex-col items-center">
+      <PageTitle title="SPONSORS" />
       <div className=" w-8/12">
         <div className="grid grid-cols-3 my-8">
           <div className="flex justify-start">
@@ -45,6 +47,7 @@ const page = () => {
       </div>
 
       <Donate />
+      <Contact />
     </div>
   );
 };

@@ -4,6 +4,7 @@ import Event from "@/components/events/Event";
 const page = () => {
   return (
     <div>
+      <PageTitle title="EVENTS" />
       <Event />
     </div>
   );

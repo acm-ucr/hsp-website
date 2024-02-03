@@ -1,7 +1,11 @@
 import React from "react";
-
+import PageTitle from "@/components/PageTitle";
 const page = () => {
-  return <div>page</div>;
+  return (
+    <div>
+      <PageTitle title="JOIN US" />
+    </div>
+  );
 };
 
 export default page;
