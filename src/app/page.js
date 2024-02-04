@@ -3,6 +3,7 @@ import Mission from "@/components/about/Mission";
 import Us from "@/components/about/Us";
 import texts from "@/data/Mission";
 import Landing from "@/components/about/Landing";
+import Button from "@/components/about/Button";
 
 const page = () => {
   return (
@@ -20,6 +21,9 @@ const page = () => {
             />
           ))}
         </div>
+      </div>
+      <div className="flex justify-center items-center">
+        <Button />
       </div>
     </div>
   );
