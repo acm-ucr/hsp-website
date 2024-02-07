@@ -2,10 +2,10 @@ import React from "react";
 
 const Table = () => {
   return (
-    <div className="text-center">
-      <div className="text-xl mt-4 mb-2">BENEFITS TIER TABLE</div>
+    <div className="text-center w-full flex flex-col justify-center items-center font-sans">
+      <div className="text-3xl w-full mt-10 mb-6">BENEFITS TIER TABLE</div>
 
-      <table className="table-auto border border-black mb-4">
+      <table className="table-auto border border-black mb-4 text-xl w-7/12 ">
         <thead>
           <tr>
             <th className="border-3 border-black w-56">BENEFITS</th>

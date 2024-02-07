@@ -15,11 +15,11 @@ const page = () => {
   const newTexts = texts.slice(1, texts.length - 1);
 
   return (
-    <div className="flex justify-center flex-col items-center">
+    <div className="flex justify-center flex-col items-center font-sans">
       <PageTitle title="SPONSORS" />
-      <div className=" w-8/12">
-        <div className="grid grid-cols-3 my-8">
-          <div className="flex justify-start">
+      <div className=" w-7/12">
+        <div className="grid grid-cols-3 my-8 gap-4">
+          <div className="flex justify-center">
             <Image src={Image1} alt="building rocket" />
           </div>
 
