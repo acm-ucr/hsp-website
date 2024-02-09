@@ -8,6 +8,8 @@ import Image2 from "@/public/assets/donate/donate2.svg";
 import PageTitle from "@/components/PageTitle";
 import Contact from "@/components/donate/Contact";
 import Table from "@/components/donate/Table";
+import Sponsors from "@/components/donate/Sponsors";
+import logos from "@/data/Sponsors"
 
 const page = () => {
   const first = texts[0];
@@ -47,7 +49,7 @@ const page = () => {
           </div>
         </div>
       </div>
-
+      <Sponsors logos={logos}/>
       <Table />
       <Donate />
       <Contact />
