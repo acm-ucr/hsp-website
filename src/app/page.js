@@ -24,9 +24,5 @@ const page = () => {
     </div>
   );
 };
-<<<<<<< HEAD
-export default Home;
-=======
 
 export default page;
->>>>>>> a654cf1ab5b56f5d0cafe24d4b778e85627b3881
