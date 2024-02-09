@@ -6,8 +6,8 @@ import { GrBottomCorner } from "react-icons/gr";
 
 const Us = () => {
   return (
-    <div className="text-center flex flex-col justify-center items-center">
-      <div className="my-40 max-h-0 translate-y-12 flex flex-col1">
+    <div className="text-center flex flex-col justify-center items-center ">
+      <div className="mb-40 mt-20 max-h-0 translate-y-12 flex flex-col1">
         <GrBottomCorner
           size={65}
           className="origin-top-left translate-x-7 translate-y-5 rotate-90"

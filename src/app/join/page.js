@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import Card from "@/components/join/Card";
 import { MdGroups } from "react-icons/md";
 import { FaDiscord } from "react-icons/fa";
@@ -22,6 +23,13 @@ const page = () => {
         description="Following our socials will keep you updated on what's happening with HSP!"
         icon={<FaBell className="text-black justify pt-20" size={150} />}
       />
+=======
+import PageTitle from "@/components/PageTitle";
+const page = () => {
+  return (
+    <div>
+      <PageTitle title="JOIN US" />
+>>>>>>> a654cf1ab5b56f5d0cafe24d4b778e85627b3881
     </div>
   );
 };
