@@ -3,10 +3,13 @@ import texts from "@/data/Poseidon/Timeline";
 
 const Timeline = () => {
   return (
-    <div className="flex flex-col items-center py-8 bg-red-300">
+    <div className="flex flex-col items-center">
+      <div className="flex justify-items-start w-8/12 text-4xl font-bold pb-4">
+        Timeline
+      </div>
       {texts.map((event, index) => (
-        <div key={index} className="flex w-2/3 items-center  bg-yellow-400">
-          <div className="bg-green-400 flex items-center justify-center">
+        <div key={index} className="flex w-2/3 items-start ">
+          <div className="flex items-center justify-center">
             <div>
               {/* Container for the circle and the line */}
               <div className="flex flex-col items-center">
@@ -22,10 +25,8 @@ const Timeline = () => {
           </div>
           {/* Texts */}
           <div className="grid grid-cols-2 gap-0.5">
-            <div className="text-4xl bg-red-200 place-self-center">
-              {event.data}
-            </div>
-            <div className="text-2xl bg-blue-300 text-left">{event.para}</div>
+            <div className="text-4xl place-self-center">{event.data}</div>
+            <div className="text-2xl text-left">{event.para}</div>
           </div>
         </div>
       ))}
