@@ -4,8 +4,7 @@ import Poseidon from "@/components/projects/poseidon/Poseidon";
 const page = () => {
   return (
     <div>
-      {" "}
-      <Poseidon />{" "}
+      <Poseidon />
     </div>
   );
 };
