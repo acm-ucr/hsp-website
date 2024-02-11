@@ -1,12 +1,10 @@
 import React from "react";
-import Propulsion from "@/components/projects/poseidon/Propulsion";
-import Avionics from "@/components/projects/poseidon/Avionics";
+import Poseidon from "@/components/projects/poseidon/Poseidon";
 
 const page = () => {
   return (
     <div>
-      {" "}
-      <Propulsion /> <Avionics />{" "}
+      <Poseidon />
     </div>
   );
 };
