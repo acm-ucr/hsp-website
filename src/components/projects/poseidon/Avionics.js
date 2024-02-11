@@ -5,19 +5,19 @@ import image2 from "@/public/assets/projects/poseidon/avionics2.svg";
 
 const Avionics = () => {
   return (
-    <div className="text-center flex flex-col justify-center items-center bg-black">
-      <div className="my-10 font-montserrat font-extrabold text-3xl text-white flex flex-col1">
+    <div className="text-center flex flex-col justify-center items-center bg-black my-10">
+      <div className="my-10 font-montserrat font-extrabold text-3xl text-white flex flex-col">
         {" "}
         Avionics Team
       </div>
 
-      <div className="grid grid-cols-2 justify-center w-full gap-20">
-        <div className="flex flex-col text-right justify-center items-end">
-          <div className="my-2 text-3xl w-5/12 font-thin text-gray-300 font-montserrat">
+      <div className="grid grid-cols-2 justify-center items-center w-7/12 h-full">
+        <div className="flex flex-col text-right justify-center items-end ">
+          <div className="my-2 text-2xl font-thin text-gray-300 font-montserrat">
             {" "}
             Data Acqusition (DAQ) & Control
           </div>
-          <div className="text-2xl font-light tracking-wide leading-relaxed w-5/12 text-white">
+          <div className="text-xl font-light text-white font-sans leading-9">
             Create and manage a real-time data acquisition system for recording
             and displaying data, facilitating live safety checks for launching
             and aborting sequences. Designed hardware for a server based valve
@@ -25,32 +25,27 @@ const Avionics = () => {
           </div>
         </div>
 
-        <div className="flex justify-start translate-x-8">
-          <Image alt="" src={image1} />
+        <div className="flex justify-start">
+          <Image alt="" src={image1} className="" />
         </div>
       </div>
 
-      <br />
-      <div className="h-0.5 bg-black w-2/5"> </div>
-      <br />
-
-      <div className="grid grid-cols-2 justify-center w-full gap-20">
-        <div className="flex justify-center items-start translate-x-20">
+      <div className="grid grid-cols-2 justify-center items-center h-full w-7/12 ">
+        <div className="flex justify-center items-start">
           {" "}
           <Image alt="" src={image2} />
         </div>
         <div className="flex flex-col text-left justify-center items-start">
-          <div className="my-2 text-3xl w-5/12 font-thin text-gray-300 font-montserrat">
+          <div className="my-2 text-2xl font-thin text-gray-300 font-montserrat">
             Ground Systems & Equipment (GSE)
           </div>
-          <div className="text-2xl font-light tracking-wide leading-relaxed w-5/12 text-white">
+          <div className="text-xl font-light text-white font-sans leading-9">
             Construct ground support equipment, including an engine test stand,
             to facilitate preliminary testing of rocket components and gather
             crucial data, ensuring a successful rocket launch
           </div>
         </div>
       </div>
-      <br />
     </div>
   );
 };
