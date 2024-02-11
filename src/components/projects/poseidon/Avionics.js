@@ -11,7 +11,7 @@ const Avionics = () => {
         Avionics Team
       </div>
 
-      <div className="grid grid-cols-2 justify-center items-center w-7/12 h-full">
+      <div className="grid grid-cols-2 justify-center items-center w-7/12 gap-6">
         <div className="flex flex-col text-right justify-center items-end ">
           <div className="my-2 text-2xl font-thin text-gray-300 font-montserrat">
             {" "}
@@ -30,7 +30,7 @@ const Avionics = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 justify-center items-center h-full w-7/12 ">
+      <div className="grid grid-cols-2 justify-center items-center gap-6  w-7/12 ">
         <div className="flex justify-center items-start">
           {" "}
           <Image alt="" src={image2} />
