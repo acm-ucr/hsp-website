@@ -7,17 +7,19 @@ import Image1 from "@/public/assets/donate/donate1.svg";
 import Image2 from "@/public/assets/donate/donate2.svg";
 import PageTitle from "@/components/PageTitle";
 import Contact from "@/components/donate/Contact";
+import Table from "@/components/donate/Table";
+
 const page = () => {
   const first = texts[0];
   const last = texts[texts.length - 1];
   const newTexts = texts.slice(1, texts.length - 1);
 
   return (
-    <div className="flex justify-center flex-col items-center">
+    <div className="flex justify-center flex-col items-center font-sans">
       <PageTitle title="SPONSORS" />
-      <div className=" w-8/12">
-        <div className="grid grid-cols-3 my-8">
-          <div className="flex justify-start">
+      <div className=" w-7/12">
+        <div className="grid grid-cols-3 my-8 gap-4">
+          <div className="flex justify-center">
             <Image src={Image1} alt="building rocket" />
           </div>
 
@@ -46,6 +48,7 @@ const page = () => {
         </div>
       </div>
 
+      <Table />
       <Donate />
       <Contact />
     </div>
