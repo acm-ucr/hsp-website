@@ -3,6 +3,7 @@ import Mission from "@/components/about/Mission";
 import Us from "@/components/about/Us";
 import texts from "@/data/Mission";
 import Landing from "@/components/about/Landing";
+import UpcomingSection from "@/components/about/UpcomingSection";
 
 const page = () => {
   return (
@@ -19,6 +20,7 @@ const page = () => {
           />
         ))}
       </div>
+      <UpcomingSection />
     </div>
   );
 };
