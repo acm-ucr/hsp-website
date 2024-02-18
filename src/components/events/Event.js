@@ -1,7 +1,4 @@
 import React from "react";
-// import { LuExternalLink } from "react-icons/lu";
-// import Link from "next/link";
-// import reactHtmlParser from "html-react-parser";
 
 const Event = ({ month, day, start, title, location, description }) => {
   month = "FEB";
