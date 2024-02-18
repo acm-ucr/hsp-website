@@ -6,27 +6,21 @@ import bar from "@/public/assets/about/bar.svg";
 
 const UpcomingSection = () => {
   return (
-    <div>
-      <div class="absolute flex flex-row justify-between items-center right-80">
-        <Image
-          src={shootingStar}
-          alt="ShootingStar"
-          className="rotate-180 scale-95 top-0 left-3"
-        />
-        <h2 className="text-5xl font-montserrat font-extralight text-center">
+    <div className="flex justify-center">
+      <Image src={bar} alt="Left Bar" className="" />
+      <div class=" flex justify-center items-start w-9/12">
+        <Image src={shootingStar} alt="ShootingStar" className="rotate-180" />
+        <div className="text-6xl font-montserrat font-extralight text-center mx-4 mt-14">
           {" "}
           Upcoming Events{" "}
-        </h2>
+        </div>
         <Image
           src={shootingStar2}
           alt="ShootingStar2"
-          className="rotate-180 scale-95 top-0 right-3"
+          className="rotate-180 "
         />
       </div>
-      <div class="flex flex-row justify-between">
-        <Image src={bar} alt="Left Bar" className="mx-24 top-0 left-5 w-30" />
-        <Image src={bar} alt="Right Bar" className="mx-24 top-0 right-5 w-30" />
-      </div>
+      <Image src={bar} alt="Right Bar" className="" />
     </div>
   );
 };

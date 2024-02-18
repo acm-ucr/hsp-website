@@ -10,7 +10,7 @@ const page = () => {
     <div>
       <Landing />
       <Us />
-      <div className="flex flex-col justify-center items-center bg-black my-12">
+      <div className="flex flex-col justify-center items-center bg-black mt-12">
         <div className="grid grid-cols-3 gap-10 w-9/12 bg-black">
           {texts.map((paragraph, index) => (
             <Mission
