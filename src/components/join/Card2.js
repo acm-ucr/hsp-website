@@ -2,11 +2,9 @@ import React from "react";
 import { IoIosCloseCircle } from "react-icons/io";
 import { MdRemoveCircle } from "react-icons/md";
 import { MdExpandCircleDown } from "react-icons/md";
-import Link from "next/link";
-
-const Card = ({ title, description, icon }) => {
+const Card2 = ({ title, description, icon }) => {
   return (
-    <div className="bg-white text-black border border-black rounded-3xl">
+    <div className="bg-white text-black border border-black rounded-3xl my-5 mx-4">
       <div className="flex items-center text-2xl mx-4 my-2">
         <IoIosCloseCircle className="mx-1" />
         <MdRemoveCircle className="mx-1" />
@@ -22,11 +20,8 @@ const Card = ({ title, description, icon }) => {
       <div className="flex justify justify-center">
         <div>{icon}</div>
       </div>
-      <div className="flex justify justify-center font-montserrat text-3xl font-extrabold text-blue-600 underline mt-5">
-        <Link href="www.google.com">Join Here</Link>
-      </div>
     </div>
   );
 };
 
-export default Card;
+export default Card2;
