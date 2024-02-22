@@ -23,7 +23,6 @@ const page = () => {
         </div>
       </div>
       <UpcomingSection />
-      <Button />
     </div>
   );
 };
