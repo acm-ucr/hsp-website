@@ -16,12 +16,7 @@ const Sponsors = ({ logos }) => {
       <div className="my-12 flex flex-wrap justify-start">
         {logos.map((logos, index) => (
           <div key={index} className="flex flex-wrap m-2">
-            <Image
-              src={logos.src}
-              alt={"Logo ${index + 1}"}
-              width={250}
-              height={200}
-            />
+            <Image src={logos.img} alt={""} width={250} height={200} />
           </div>
         ))}
       </div>

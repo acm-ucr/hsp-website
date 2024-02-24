@@ -4,13 +4,13 @@ import Logo3 from "@/public/assets/donate/sponsors/gcap.svg";
 
 const logos = [
   {
-    src: Logo1,
+    img: Logo1,
   },
   {
-    src: Logo2,
+    img: Logo2,
   },
   {
-    src: Logo3,
+    img: Logo3,
   },
 ];
 export default logos;
