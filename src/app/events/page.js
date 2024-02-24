@@ -11,7 +11,6 @@ const page = () => {
       <HeaderTitle Name={"Past Events"} />
 
       <Event />
-
     </div>
   );
 };
