@@ -5,7 +5,7 @@ import image2 from "@/public/assets/projects/poseidon/fluid.svg";
 
 const Propulsion = () => {
   return (
-    <div className="text-center flex flex-col justify-center items-center ">
+    <div className="text-center flex flex-col justify-center items-center">
       <div className="my-10 font-montserrat font-extrabold text-3xl flex flex-col1">
         {" "}
         Propulsion Team

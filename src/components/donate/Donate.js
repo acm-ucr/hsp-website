@@ -3,12 +3,14 @@ import Link from "next/link";
 
 const Donate = () => {
   return (
-    <Link
-      href="#"
-      className="bg-green-600 text-white text-2xl font-bold text-decoration-line: underline flex justify-center items-center rounded-3xl min-w-fit px-4 min-h-fit py-1 hover:scale-110"
-    >
-      Donate Here
-    </Link>
+    <div className="flex items-center justify-center text-center">
+      <Link
+        href="#"
+        className="bg-[#639237] font-urbanist text-white text-[60px] font-black underline decoration-2 rounded-[40.5px] w-[364px] h-[81px]px-1.5 hover:no-underline"
+      >
+        Donate Here
+      </Link>
+    </div>
   );
 };
 

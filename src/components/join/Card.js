@@ -1,16 +1,16 @@
 import React from "react";
-import {
-  IoMdCloseCircleOutline,
-  IoMdRemoveCircleOutline,
-} from "react-icons/io";
+import { IoIosCloseCircle } from "react-icons/io";
+import { MdRemoveCircle } from "react-icons/md";
+import { MdExpandCircleDown } from "react-icons/md";
 import Link from "next/link";
 
 const Card = ({ title, description, icon }) => {
   return (
     <div className="bg-white text-black border border-black rounded-3xl">
       <div className="flex items-center text-2xl mx-4 my-2">
-        <IoMdCloseCircleOutline className="mx-1" />
-        <IoMdRemoveCircleOutline className="mx-1" />
+        <IoIosCloseCircle className="mx-1" />
+        <MdRemoveCircle className="mx-1" />
+        <MdExpandCircleDown className="mx-1" />
       </div>
       <div className="border border-black"></div>
       <div className="font-montserrat text-3xl font-extrabold leading-10 p-3">
