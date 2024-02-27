@@ -2,7 +2,7 @@ import React from "react";
 
 const Description = ({ title, texts }) => {
   return (
-    <div>
+    <div className="p-4">
       <div className="font-montserrat text-3xl font-bold leading-10 my-2">
         {title}
       </div>
