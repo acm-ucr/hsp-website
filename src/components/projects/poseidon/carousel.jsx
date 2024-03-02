@@ -6,22 +6,22 @@ const Carousel = () => {
     <div className="relative flex overflow-hidden">
       <div className="flex animate-marquee">
         {carousel.map((image, index) => (
-          <div key={index} className="flex-grow items-stretch w-2/4 mx-4">
+          <div key={index} className="flex-grow items-stretch mx-4">
             <Image
               src={image}
               alt="carousel"
-              className="object-cover min-w-80 h-full"
+              className="object-cover h-full w-full rounded-xl"
             />
           </div>
         ))}
       </div>
       <div className="flex absolute animate-marquee-continuation">
         {carousel.map((image, index) => (
-          <div key={index} className="flex-grow items-stretch w-2/4 mx-4">
+          <div key={index} className="flex-grow items-stretch w-1/2 mx-4">
             <Image
               src={image}
               alt="carousel"
-              className="object-cover min-w-80 h-full"
+              className="object-coverh-full rounded-xl"
             />
           </div>
         ))}
