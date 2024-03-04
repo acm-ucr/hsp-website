@@ -15,17 +15,19 @@ const Timeline = () => {
                 <div className=" bg-blue-500 rounded-full w-10 h-10"></div>
 
                 {index !== texts.length - 1 && (
-                  <div className="w-1 bg-black h-20"></div>
+                  <div className="w-1 bg-black sm:h-20 h-96"></div>
                 )}
               </div>
             </div>
           </div>
 
           <div className="grid grid-cols-2 font-sans ">
-            <div className="text-2xl flex justify-center items-start ">
+            <div className="text-2xl flex justify-center items-start sm:bg-red-500">
               {event.data}
+
+              <span className="hidden md:inline">{event.para}</span>
             </div>
-            <div className="text-xl text-left  flex justify-center items-center">
+            <div className=" hidden md:block text-xl text-left flex justify-center items-center ">
               {event.para}
             </div>
           </div>
