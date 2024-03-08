@@ -1,6 +1,6 @@
 import React from "react";
 
-const LeadTitle = ({ Name }) => {
+const Header = ({ Name }) => {
   return (
     <div className="font-extralight text-center text-5xl font-montserrat w-full mt-4">
       {Name}
@@ -9,4 +9,4 @@ const LeadTitle = ({ Name }) => {
   );
 };
 
-export default LeadTitle;
+export default Header;
