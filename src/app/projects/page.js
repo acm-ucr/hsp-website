@@ -32,7 +32,7 @@ const page = () => {
           <Image src={Image3} alt="rocket" />
         </div>
       </div>
-    <Timeline />
+      <Timeline />
     </div>
   );
 };

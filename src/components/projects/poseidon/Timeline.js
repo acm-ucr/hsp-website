@@ -14,7 +14,7 @@ const Timeline = () => {
             <div>
               <div className="flex flex-col items-center">
                 <div className=" bg-blue-500 rounded-full w-10 h-10 -mt-8"></div>
-                
+
                 {index !== texts.length - 1 && (
                   <div className="w-1 bg-black sm:h-13 h-96"></div>
                 )}
@@ -22,19 +22,16 @@ const Timeline = () => {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 font-sans gap-3 md:-mt-10 -mt-7">
-            <div className="text-2xl flex justify-center items-start flex-col">
+          <div className="grid md:grid-cols-2 font-sans gap-3 -mt-10 ">
+            <div className="text-2xl flex justify-center items-start flex-col pl-4">
               {event.data}
 
               <span className="block md:hidden mt-4">{event.para}</span>
-            </div>  
-            <div className="hidden md:block text-xl">
-              {event.para}
             </div>
+            <div className="hidden md:block text-xl">{event.para}</div>
           </div>
         </div>
       ))}
-
     </div>
   );
 };
