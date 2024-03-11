@@ -27,7 +27,7 @@ const page = () => {
         />
         <div></div>
       </div>
-      <div className="relative flex overflow-hidden justify-center w-full h-96 m-4">
+      <div className="relative flex overflow-hidden justify-center w-full h-96 m-4 ">
         <Carousel />
       </div>
     </div>
