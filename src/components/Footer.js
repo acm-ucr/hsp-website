@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <div className="grid grid-cols-2 gap-8 text-white bg-black w-full pt-24 pb-4">
       <div className="flex justify-start ">
-        <Image src={logo} />
+        <Image src={logo} alt="logo" />
       </div>
       <div className="grid grid-cols-3 divide-x-4 divide-white justify-center items-center ">
         <div className="font-montserrat h-5/6 grid col-span-2 justify-center items-center ">
