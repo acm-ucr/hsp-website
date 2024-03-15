@@ -3,10 +3,10 @@ import React from "react";
 const Contact = () => {
   return (
     <div className=" text-center">
-      <div className="mt-3 md:mt-5 text-3xl md:text-5xl font-urbanist font-black ">
+      <div className="mt-3 md:mt-5 text-3xl lg:text-6xl font-urbanist font-extrabold ">
         Contact Us
       </div>
-      <div className=" font-sans text-xs lg:text-lg md:text-sm">
+      <div className=" font-sans text-xs lg:text-lg md:text-sm mt-4">
         <div className="mb-4">highlanderspaceprogram@gmail.com </div>
 
         <div className="font-extrabold">Javen Dosanjh</div>
