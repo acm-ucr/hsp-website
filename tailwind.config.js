@@ -21,6 +21,21 @@ module.exports = {
           green: "#639237",
         },
       },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+        "marquee-continuation": {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(0%)" },
+        },
+      },
+      animation: {
+        marquee: "marquee 30s linear infinite",
+        "marquee-continuation": "marquee-continuation 30s linear infinite",
+        "spin-slow": "spin 3s linear infinite",
+      },
     },
   },
   plugins: [],
