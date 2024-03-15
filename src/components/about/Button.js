@@ -1,10 +1,13 @@
 import React from "react";
-
+import Link from "next/link";
 const Button = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-hsp-yellow text-white text-2xl font-bold font-montserrat rounded-full w-56 h-10 my-4 hover:scale-110">
+    <Link
+      href="/events"
+      className="flex flex-col justify-center items-center bg-hsp-yellow text-white text-2xl font-bold font-montserrat rounded-full w-3/12 py-2 my-4 hover:scale-105 hover:cursor-pointer"
+    >
       See More
-    </div>
+    </Link>
   );
 };
 
