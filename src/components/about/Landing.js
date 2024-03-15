@@ -5,9 +5,9 @@ import comets from "@/public/assets/about/comets.svg";
 import { FaChevronDown } from "react-icons/fa";
 const Landing = () => {
   return (
-    <div className="h-screen w-screen bg-transparent">
+    <div className="h-screen w-screen bg-black">
       <Image src={Sky} alt="sky" className="bg-black top-0.5 absolute" />
-      <div className="w-screen h-96 bg-white flex justify-center items-center mt-10 relative">
+      <div className="w-screen h-1/2 bg-white flex justify-center items-center mt-10 relative">
         <Image src={comets} className="" />
         <div classname="flex flex-col items-center ">
           <div className="text-3xl text-black font-extralight font-montserrat my-3">
@@ -30,7 +30,7 @@ const Landing = () => {
           engineering by providing an outlet for members to explore, develop and
           enhance their technical skills.
         </div>
-        <FaChevronDown className=" mt-10 text-5xl text-white" />
+        <FaChevronDown className="mt-10 text-5xl text-white" />
       </div>
     </div>
   );
