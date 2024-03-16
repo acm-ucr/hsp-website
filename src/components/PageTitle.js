@@ -6,7 +6,7 @@ const PageTitle = ({ title }) => {
   return (
     <div className="relative">
       <Image src={starBackground} alt="Star Background" className=" w-full" />
-      <div class="font-montserrat absolute top-28 inset-x-0 text-white text-5xl font-bold text-center">
+      <div className="font-montserrat absolute top-28 inset-x-0 text-white text-5xl font-bold text-center">
         {title}
       </div>
     </div>

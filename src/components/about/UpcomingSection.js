@@ -52,7 +52,7 @@ const UpcomingSection = ({ showCurrent = false, showPast = false }) => {
         <Image src={pic}/>
       ))} */}
           <div className="flex flex-col justify-start items-center">
-            <div class=" flex justify-center items-start w-full  ">
+            <div className=" flex justify-center items-start w-full  ">
               <Image
                 src={shootingStar}
                 alt="ShootingStar"
