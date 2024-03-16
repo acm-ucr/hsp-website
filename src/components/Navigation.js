@@ -45,7 +45,7 @@ const Navigation = () => {
               setSelected("about");
             }}
             className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
-              selected === "about" ? "text-hsp-yellow" : "text-white"
+              selected === "about" ? "!text-hsp-yellow" : "text-white"
             }`}
           >
             about
@@ -58,7 +58,7 @@ const Navigation = () => {
               setSelected("board");
             }}
             className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
-              selected === "board" ? "text-hsp-yellow" : "text-white"
+              selected === "board" ? "!text-hsp-yellow" : "text-white"
             }`}
           >
             board
@@ -71,7 +71,7 @@ const Navigation = () => {
               setSelected("events");
             }}
             className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
-              selected === "events" ? "text-hsp-yellow" : "text-white"
+              selected === "events" ? "!text-hsp-yellow" : "text-white"
             }`}
           >
             events
@@ -84,7 +84,7 @@ const Navigation = () => {
               setSelected("donate");
             }}
             className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
-              selected === "donate" ? "text-hsp-yellow" : "text-white"
+              selected === "donate" ? "!text-hsp-yellow" : "text-white"
             }`}
           >
             donate
@@ -97,7 +97,7 @@ const Navigation = () => {
               setSelected("projects");
             }}
             className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
-              selected === "projects" ? "text-hsp-yellow" : "text-white"
+              selected === "projects" ? "!text-hsp-yellow" : "text-white"
             }`}
           >
             projects
