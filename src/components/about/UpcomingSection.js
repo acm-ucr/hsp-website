@@ -7,6 +7,7 @@ import bar from "@/public/assets/about/bar.svg";
 import Event from "../events/Event";
 import moment from "moment";
 import axios from "axios";
+import Button from "../about/Button";
 // import { momentLocalizer } from "react-big-calendar";
 // const mLocalizer = momentLocalizer(moment);
 
@@ -97,6 +98,7 @@ const UpcomingSection = ({ showCurrent = false, showPast = false }) => {
                 No upcoming events, please check back later!
               </div>
             )}
+            <Button />
           </div>
 
           <Image src={bar} alt="Right Bar" className="h-full" />

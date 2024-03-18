@@ -35,12 +35,10 @@ const page = () => {
           <Image src={Image3} alt="rocket" />
         </div>
       </div>
-      <div>
-        <Timeline></Timeline>
-        <Propulsion></Propulsion>
-        <Avionics></Avionics>
-        <Structures></Structures>
-      </div>
+      <Timeline />
+      <Propulsion />
+      <Avionics />
+      <Structures />
     </div>
   );
 };

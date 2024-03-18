@@ -26,7 +26,7 @@ const Profile = ({
         <div className="font-bold font-montserrat text-xl mt-3">{name}</div>
         <div className="text-l font-urbanist">{title}</div>
         <div className="flex space-x-2 ">
-          <Link href={email}>
+          <Link href={"mailto:" + email}>
             <MdEmail className="h-8 w-8 text-slate-800 " />
           </Link>
           <Link href={linkedin}>
