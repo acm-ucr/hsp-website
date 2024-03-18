@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Link from "next/link";
@@ -7,6 +7,7 @@ import Image from "next/image";
 import Logo from "../public/assets/logo.svg";
 import Button from "@/components/Button";
 const Navigation = () => {
+  const [selected, setSelected] = useState("");
   return (
     <Navbar
       collapseOnSelect
@@ -19,13 +20,14 @@ const Navigation = () => {
           eventkey="1"
           className="p-0 flex justify-center items-center"
           href="/"
+          onClick={() => setSelected("")}
         >
           <Image
             src={Logo}
             width={100}
             height={100}
             className="h-[7vh]"
-            alt="WINC at UCR"
+            alt="HSP at UCR"
           />
           <div className="text-white text-3xl md:text-5xl font-montserrat font-bold">
             HSP
@@ -39,7 +41,12 @@ const Navigation = () => {
             as={Link}
             eventkey="6"
             href="/"
-            className="mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer"
+            onClick={() => {
+              setSelected("about");
+            }}
+            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
+              selected === "about" ? "!text-hsp-yellow" : "text-white"
+            }`}
           >
             about
           </Nav.Link>
@@ -47,7 +54,12 @@ const Navigation = () => {
             as={Link}
             eventkey="2"
             href="/board"
-            className="mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer"
+            onClick={() => {
+              setSelected("board");
+            }}
+            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
+              selected === "board" ? "!text-hsp-yellow" : "text-white"
+            }`}
           >
             board
           </Nav.Link>
@@ -55,7 +67,12 @@ const Navigation = () => {
             as={Link}
             eventkey="3"
             href="/events"
-            className="mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer"
+            onClick={() => {
+              setSelected("events");
+            }}
+            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
+              selected === "events" ? "!text-hsp-yellow" : "text-white"
+            }`}
           >
             events
           </Nav.Link>
@@ -63,7 +80,12 @@ const Navigation = () => {
             as={Link}
             eventkey="4"
             href="/donate"
-            className="mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer"
+            onClick={() => {
+              setSelected("donate");
+            }}
+            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
+              selected === "donate" ? "!text-hsp-yellow" : "text-white"
+            }`}
           >
             donate
           </Nav.Link>
@@ -71,7 +93,12 @@ const Navigation = () => {
             as={Link}
             eventkey="5"
             href="/projects"
-            className="mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer"
+            onClick={() => {
+              setSelected("projects");
+            }}
+            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
+              selected === "projects" ? "!text-hsp-yellow" : "text-white"
+            }`}
           >
             projects
           </Nav.Link>
