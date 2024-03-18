@@ -21,7 +21,7 @@ const Carousel = () => {
             <Image
               src={image}
               alt="carousel"
-              className="object-coverh-full rounded-xl"
+              className="object-cover h-full rounded-xl"
             />
           </div>
         ))}
