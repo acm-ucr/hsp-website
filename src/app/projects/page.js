@@ -6,6 +6,10 @@ import Image1 from "@/public/assets/projects/poseidon/scotty.svg";
 import Image2 from "@/public/assets/projects/poseidon/far.svg";
 import Image3 from "@/public/assets/projects/poseidon/rocket.svg";
 import PageTitle from "@/components/PageTitle";
+import Propulsion from "@/components/projects/poseidon/Propulsion";
+import Avionics from "@/components/projects/poseidon/Avionics";
+import Structures from "@/components/projects/poseidon/Structures";
+import Timeline from "@/components/projects/poseidon/Timeline";
 
 const page = () => {
   const first = texts[0];
@@ -35,6 +39,10 @@ const page = () => {
           <Image src={Image3} alt="rocket" />
         </div>
       </div>
+      <Timeline />
+      <Propulsion />
+      <Avionics />
+      <Structures />
     </div>
   );
 };
