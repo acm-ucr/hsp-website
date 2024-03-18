@@ -34,7 +34,7 @@ module.exports = {
       animation: {
         marquee: "marquee 30s linear infinite .5s",
         "marquee-continuation": "marquee-continuation 30s linear infinite .25s",
-        "spin-slow": "spin 3s linear infinite ",
+        "spin-slow": "spin 3s linear infinite",
       },
     },
   },
