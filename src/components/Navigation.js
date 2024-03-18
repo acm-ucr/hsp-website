@@ -7,7 +7,7 @@ import Image from "next/image";
 import Logo from "../public/assets/logo.svg";
 import Button from "@/components/Button";
 const Navigation = () => {
-  const [selected, setSelected] = useState("");
+  const [selected, setSelected] = useState(null);
   return (
     <Navbar
       collapseOnSelect
@@ -43,9 +43,11 @@ const Navigation = () => {
             href="/"
             onClick={() => {
               setSelected("about");
+              console.log("selected");
+              console.log(selected);
             }}
-            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
-              selected === "about" ? "!text-hsp-yellow" : "text-white"
+            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap w-full text-center text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
+              selected === "about" ? "!text-hsp-yellow underline" : "text-white"
             }`}
           >
             about
@@ -57,7 +59,7 @@ const Navigation = () => {
             onClick={() => {
               setSelected("board");
             }}
-            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
+            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
               selected === "board" ? "!text-hsp-yellow" : "text-white"
             }`}
           >
@@ -70,7 +72,7 @@ const Navigation = () => {
             onClick={() => {
               setSelected("events");
             }}
-            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
+            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
               selected === "events" ? "!text-hsp-yellow" : "text-white"
             }`}
           >
@@ -83,7 +85,7 @@ const Navigation = () => {
             onClick={() => {
               setSelected("donate");
             }}
-            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
+            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
               selected === "donate" ? "!text-hsp-yellow" : "text-white"
             }`}
           >
@@ -96,7 +98,7 @@ const Navigation = () => {
             onClick={() => {
               setSelected("projects");
             }}
-            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center !text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
+            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
               selected === "projects" ? "!text-hsp-yellow" : "text-white"
             }`}
           >
@@ -106,6 +108,9 @@ const Navigation = () => {
             as={Link}
             eventkey="6"
             href="/join"
+            onClick={() => {
+              setSelected("");
+            }}
             className="flex justify-center items-center mb-0 w-full py-1 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap"
           >
             <Button />
