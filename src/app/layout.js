@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${urbanist.variable} ${montserrat.variable}`}>
         <Navigation />
-        <div className="">{children}</div>
+        <div className="pt-[9vh] lg:pt-0">{children}</div>
         <Footer />
       </body>
     </html>
