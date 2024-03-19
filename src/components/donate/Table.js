@@ -3,7 +3,7 @@ import React from "react";
 const Table = () => {
   return (
     <div className="text-center w-full flex flex-col justify-center items-center font-sans">
-      <div className="text-3xl w-full mt-10 mb-6">BENEFITS TIER TABLE</div>
+      <div className="text-xl lg:text-3xl w-full mb-6">BENEFITS TIER TABLE</div>
 
       <table className="table-auto border border-black mb-4 lg:text-xl w-7/12 ">
         <thead>

@@ -19,15 +19,19 @@ const page = () => {
   return (
     <div className="flex justify-center flex-col items-center font-sans">
       <PageTitle title="SPONSORS" />
-      <div className=" w-7/12">
-        <div className="grid grid-cols-3 my-8 gap-4">
-          <div className="flex justify-center">
+      <div className=" w-7/12 justify-center">
+        <div className="grid md:grid-cols-3 my-8 gap-4">
+          <div className="hidden md:flex justify-center">
             <Image src={Image1} alt="building rocket" />
           </div>
 
           <div className=" justify-start items-center grid col-span-2">
             <Description key={0} title={first.heading} texts={first.para} />
           </div>
+        </div>
+
+        <div className="block md:hidden itmes-center justify-center">
+          <Image src={Image1} alt="" />
         </div>
 
         <div>
@@ -40,11 +44,11 @@ const page = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-3 ">
-          <div className=" grid col-span-2">
+        <div className="grid md:grid-cols-3 ">
+          <div className=" grid md:col-span-2">
             <Description key={0} title={last.heading} texts={last.para} />
           </div>
-          <div className="flex justify-center items-center">
+          <div className="block md:flex justify-center items-center">
             <Image src={Image2} alt="college ranking" />
           </div>
         </div>
