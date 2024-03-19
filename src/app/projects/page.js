@@ -19,25 +19,15 @@ const page = () => {
     <div className="flex justify-center flex-col items-center font-sans">
       <PageTitle title="POSEIDON" />
       <div className="w-full md:w-7/12">
-        <div className="my-9 flex flex-col md:flex-row justify-between gap-5">
-          <div className="flex-1">
-            <Description key={0} title={first.heading} texts={first.para} />
-          </div>
-          <div className="flex-1">
-            <Image className="mt-10" src={Image1} alt="scotty" />
-          </div>
+        <div className="flex flex-col md:flex-row justify-start lg:items-start items-center">
+          <Description key={0} title={first.heading} texts={first.para} />
+          <Image className="lg:mt-10 " src={Image1} alt="scotty" />
         </div>
-        <div className="my-9 flex flex-col md:flex-row justify-between gap-5">
-          <div className="flex-1">
-            <Description key={0} title={last.heading} texts={last.para} />
-          </div>
-          <div className="flex-1">
-            <Image className="mt-10" src={Image2} alt="far-out" />
-          </div>
+        <div className="flex flex-col md:flex-row justify-start items-center">
+          <Description key={0} title={last.heading} texts={last.para} />
+          <Image src={Image2} alt="far-out" />
         </div>
-        <div className="my-9">
-          <Image src={Image3} alt="rocket" />
-        </div>
+        <Image src={Image3} alt="rocket" />
       </div>
       <Timeline />
       <Propulsion />
