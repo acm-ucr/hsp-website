@@ -7,12 +7,12 @@ import { FaBell } from "react-icons/fa";
 import Carousel from "@/components/projects/poseidon/carousel.jsx";
 const page = () => {
   return (
-    <div>
-      <div className="justify justify-center grid grid-cols-3 my-28 mx-14 ">
+    <div className="items-center justify-center flex flex-col">
+      <div className=" justify-center grid grid-cols-1 lg:grid-cols-3 my-28 w-11/12">
         <Card2
           title="Come to our meetings and events"
           description="HSP regularly conducts meetings and work sessions that build towards competitions."
-          icon={<MdGroups className="text-black" size={100} />}
+          icon={<MdGroups className="text-black " size={100} />}
         />
         <Card
           title="Join Our Discord"
@@ -27,7 +27,7 @@ const page = () => {
         />
         <div></div>
       </div>
-      <div className="relative flex overflow-hidden justify-center w-full h-96 m-4 ">
+      <div className="relative flex overflow-hidden justify-center w-full m-4 ">
         <Carousel />
       </div>
     </div>

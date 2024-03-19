@@ -47,7 +47,7 @@ const UpcomingSection = ({ showCurrent = false, showPast = false }) => {
     <div>
       {!showCurrent && !showPast && (
         <div className="flex justify-center">
-          <Image src={bar} alt="Left Bar" className="h-full" />
+          <Image src={bar} alt="Left Bar" className="h-full hidden md:block" />
           {/* {barImages.map((pic, index) => (
         <Image src={pic}/>
       ))} */}
@@ -56,16 +56,16 @@ const UpcomingSection = ({ showCurrent = false, showPast = false }) => {
               <Image
                 src={shootingStar}
                 alt="ShootingStar"
-                className="rotate-180"
+                className="rotate-180 hidden md:block"
               />
-              <div className="text-6xl font-montserrat font-extralight text-center mx-4 mt-14">
+              <div className="text-4xl lg:text-6xl font-montserrat font-extralight text-center mx-4 mt-14">
                 {" "}
                 Upcoming Events{" "}
               </div>
               <Image
                 src={shootingStar2}
                 alt="ShootingStar2"
-                className="rotate-180 "
+                className="rotate-180 hidden md:block"
               />
             </div>
             {console.log(events)};
@@ -101,14 +101,14 @@ const UpcomingSection = ({ showCurrent = false, showPast = false }) => {
             <Button />
           </div>
 
-          <Image src={bar} alt="Right Bar" className="h-full" />
+          <Image src={bar} alt="Right Bar" className="h-full hidden md:block" />
         </div>
       )}
       {showCurrent && (
         <div className="flex flex-col justify-center items-center w-full">
           {upcoming.length !== 0 ? (
             upcoming.slice(0, 4).map((event, index) => (
-              <div className="flex w-5/12  my-3" key={index}>
+              <div className="flex w-11/12 lg:w-5/12  my-3" key={index}>
                 <Event
                   month={event.start
                     .toLocaleDateString("en-US", { month: "short" })
@@ -141,7 +141,7 @@ const UpcomingSection = ({ showCurrent = false, showPast = false }) => {
         <div className="flex flex-col justify-center items-center w-full">
           {past.length !== 0 ? (
             past.slice(0, 3).map((event, index) => (
-              <div className="flex w-5/12  my-3" key={index}>
+              <div className="flex w-11/12 lg:w-5/12  my-3" key={index}>
                 <Event
                   month={event.start
                     .toLocaleDateString("en-US", { month: "short" })

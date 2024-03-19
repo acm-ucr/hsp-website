@@ -10,34 +10,37 @@ const Structures = () => {
     Structures Team
   </div> */}
 
-      <div className="grid grid-cols-2 justify-center items-center w-7/12">
-        <div className="flex justify-center ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center w-10/12 lg:w-7/12">
+        <div className=" justify-center hidden md:block">
           <Image alt="" src={image1} className="" />
         </div>
-        <div className="flex flex-col text-right justify-start items-start ">
-          <div className="font-montserrat font-extrabold text-2xl  flex flex-col">
+        <div className="flex flex-col  justify-center items-center lg:justify-start lg:items-start ">
+          <div className="font-montserrat font-extrabold text-xl lg:text-2xl  flex flex-col">
             {" "}
             Structures Team
           </div>
-          <div className="my-2 text-2xl font-thin  font-montserrat">
+          <div className="my-2 text-lg lg:text-2xl font-thin  font-montserrat">
             {" "}
             Payload & Recovery
           </div>
-          <div className="text-xl text-left font-light  font-sans leading-9">
+          <div className="text-base lg:text-xl lg:text-left font-light  font-sans leading-8 lg:leading-9">
             Payload aims to shield sensitive biological experiments and
             instruments from intense rocket vibrations and heat produced during
             flight. The recovery team ensures the safe return of Poseidon
             through a two-stage parachute system.
           </div>
         </div>
+        <div className=" flex justify-center md:hidden">
+          <Image alt="" src={image1} className="lg:w-full w-6/12" />
+        </div>
       </div>
 
-      <div className="grid grid-cols-2 justify-end items-center w-7/12 ">
-        <div className="flex flex-col text-right justify-end items-end">
-          <div className="my-2 text-2xl font-thin  font-montserrat">
+      <div className="grid grid-cols-1 lg:grid-cols-2 justify-end items-center w-10/12 lg:w-7/12 ">
+        <div className="flex flex-col lg:text-right lg:justify-end lg:items-end">
+          <div className="my-2 text-lg lg:text-2xl font-thin  font-montserrat">
             Aerostructures
           </div>
-          <div className="text-xl font-light  font-sans leading-9">
+          <div className="text-base lg:text-xl font-light  font-sans leading-8 lg:leading-9">
             Design, simulate, and rigorously test the aero-structures of our
             Poseidon rocket to guarantee flight stability and structural
             integrity.
@@ -45,7 +48,7 @@ const Structures = () => {
         </div>
         <div className="flex justify-center items-start">
           {" "}
-          <Image alt="" src={image2} />
+          <Image alt="" src={image2} className="lg:w-fit w-8/12" />
         </div>
       </div>
     </div>

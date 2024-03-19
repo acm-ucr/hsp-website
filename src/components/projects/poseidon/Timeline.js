@@ -4,11 +4,11 @@ import texts from "@/data/Poseidon/Timeline";
 const Timeline = () => {
   return (
     <div className="flex flex-col items-center my-10">
-      <div className="flex lg:justify-start justify-center lg:w-9/12 text-xl lg:text-3xl font-extrabold font-montserrat pb-4">
+      <div className="flex lg:justify-start justify-center lg:w-8/12 text-xl lg:text-3xl font-extrabold font-montserrat pb-4">
         Timeline
       </div>
       {texts.map((event, index) => (
-        <div key={index} className="flex w-11/12 lg:w-9/12 items-start ">
+        <div key={index} className="flex w-11/12 lg:w-8/12 items-start ">
           <div className="flex items-center justify-center">
             <div>
               <div className="flex flex-col items-center">

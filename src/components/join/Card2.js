@@ -11,13 +11,13 @@ const Card2 = ({ title, description, icon }) => {
         <MdExpandCircleDown className="mx-1" />
       </div>
       <div className="border border-black"></div>
-      <div className="font-montserrat text-3xl font-extrabold leading-10 p-3">
+      <div className="font-montserrat text-xl lg:text-3xl text-center font-extrabold leading-9 lg:leading-10 p-3">
         {title}
       </div>
-      <div className="font-sans-arial text-xl font-light leading-9 px-3">
+      <div className="font-sans-arial text-center text-base lg:text-xl font-light leading-8 lg:leading-9 px-3">
         {description}
       </div>
-      <div className="flex justify justify-center">
+      <div className="flex justify-center">
         <div>{icon}</div>
       </div>
     </div>
