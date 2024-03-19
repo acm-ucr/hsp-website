@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Sponsors = ({ logos }) => {
   return (
-    <div className="my-12 text-center flex flex-col justify-center items-center h-full">
+    <div className="mt-12 text-center flex flex-col justify-center items-center h-full">
       <div className="mb-2 text-3xl lg:text-6xl font-extrabold font-urbanist">
         Sponsors
       </div>

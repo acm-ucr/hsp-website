@@ -10,7 +10,7 @@ const Description = ({ title, texts }) => {
       {texts.map((text, index) => (
         <div
           key={index}
-          className="font-sans text-base lg:text-lg mb-3 leading-9"
+          className="font-sans text-base lg:text-lg mb-3 leading-8 lg:leading-9"
         >
           <p>{text}</p>
         </div>
