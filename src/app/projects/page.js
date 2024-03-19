@@ -18,14 +18,14 @@ const page = () => {
   return (
     <div className="flex justify-center flex-col items-center font-sans">
       <PageTitle title="POSEIDON" />
-      <div className="w-full md:w-7/12">
+      <div className="w-full lg:w-8/12">
         <div className="flex flex-col md:flex-row justify-start lg:items-start items-center">
           <Description key={0} title={first.heading} texts={first.para} />
           <Image className="lg:mt-10 " src={Image1} alt="scotty" />
         </div>
         <div className="flex flex-col md:flex-row justify-start items-center">
           <Description key={0} title={last.heading} texts={last.para} />
-          <Image src={Image2} alt="far-out" />
+          <Image src={Image2} alt="far-out" className="w-8/12 lg:w-fit" />
         </div>
         <Image src={Image3} alt="rocket" />
       </div>
