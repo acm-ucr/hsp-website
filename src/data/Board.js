@@ -1,14 +1,14 @@
-import Javen from "../../public/assets/board/Javen.svg";
-import Jordy from "../../public/assets/board/Jordy.svg";
-import Lawrence from "../../public/assets/board/Lawrence.svg";
-import George from "../../public/assets/board/George.svg";
-import Alan from "../../public/assets/board/Alan.svg";
-import Joel from "../../public/assets/board/Joel.svg";
-import Khulan from "../../public/assets/board/Khulan.svg";
-import Marlon from "../../public/assets/board/Marlon.svg";
-import Mehmet from "../../public/assets/board/Mehmet.svg";
-import Theopolis from "../../public/assets/board/Theopolis.svg";
-import Uma from "../../public/assets/board/Uma.svg";
+import Javen from "../../public/assets/board/Javen.png";
+import Jordy from "../../public/assets/board/Jordy.png";
+import Lawrence from "../../public/assets/board/Lawrence.png";
+import George from "../../public/assets/board/George.png";
+import Alan from "../../public/assets/board/Alan.png";
+import Joel from "../../public/assets/board/Joel.png";
+import Khulan from "../../public/assets/board/Khulan.png";
+import Marlon from "../../public/assets/board/Marlon.png";
+import Mehmet from "../../public/assets/board/Mehmet.png";
+import Theopolis from "../../public/assets/board/Theopolis.png";
+import Uma from "../../public/assets/board/Uma.png";
 
 export const BOARD = [
   [
