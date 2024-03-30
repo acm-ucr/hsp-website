@@ -6,12 +6,14 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../public/assets/logo.png";
 import Button from "@/components/Button";
+
 const Navigation = () => {
-  const [selected, setSelected] = useState(null);
+  const [selected, setSelected] = useState("");
+
   return (
     <Navbar
       collapseOnSelect
-      className="py-0 font-montserrat  w-full px-3 m-0 min-h-[9vh] bg-hsp-gray drop-shadow-lg flex justify-between items-center"
+      className="py-0 font-montserrat w-full px-3 m-0 min-h-[9vh] bg-hsp-gray drop-shadow-lg flex justify-between items-center"
       expand="md"
       fixed="top"
     >
@@ -35,31 +37,14 @@ const Navigation = () => {
         </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbar-nav" />
-      <Navbar.Collapse id="navbar-nav">
-        <Nav className="mb-2 w-full md:w-9/12 no-underline ml-auto text-2xl">
-          <Nav.Link
-            as={Link}
-            eventkey="6"
-            href="/"
-            onClick={() => {
-              setSelected("about");
-              console.log("selected");
-              console.log(selected);
-            }}
-            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap w-full text-center text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
-              selected === "about" ? "!text-hsp-yellow underline" : "text-white"
-            }`}
-          >
-            about
-          </Nav.Link>
+      <Navbar.Collapse id="navbar-nav bg-purple-500 mx-4">
+        <Nav className="mb-2 w-full md:w-6/12 ml-auto no-underline text-2xl">
           <Nav.Link
             as={Link}
             eventkey="2"
             href="/board"
-            onClick={() => {
-              setSelected("board");
-            }}
-            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
+            onClick={() => setSelected("board")}
+            className={`mb-0 py-2 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
               selected === "board" ? "!text-hsp-yellow" : "text-white"
             }`}
           >
@@ -72,7 +57,7 @@ const Navigation = () => {
             onClick={() => {
               setSelected("events");
             }}
-            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
+            className={`mb-0 py-2 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
               selected === "events" ? "!text-hsp-yellow" : "text-white"
             }`}
           >
@@ -85,7 +70,7 @@ const Navigation = () => {
             onClick={() => {
               setSelected("donate");
             }}
-            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
+            className={`mb-0 py-2 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
               selected === "donate" ? "!text-hsp-yellow" : "text-white"
             }`}
           >
@@ -98,7 +83,7 @@ const Navigation = () => {
             onClick={() => {
               setSelected("projects");
             }}
-            className={`mb-0 py-2 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
+            className={`mb-0 py-2 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap bg-winc-white w-full text-center text-white !font-montserrat !font-bold hover:!text-hsp-yellow hover:cursor-pointer ${
               selected === "projects" ? "!text-hsp-yellow" : "text-white"
             }`}
           >
@@ -111,7 +96,7 @@ const Navigation = () => {
             onClick={() => {
               setSelected("");
             }}
-            className="flex justify-center items-center mb-0 w-full py-1 px-3 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap"
+            className="flex justify-center items-center mb-0 w-full py-1 no-underline ml-auto text-xl md:text-2xl whitespace-nowrap"
           >
             <Button />
           </Nav.Link>

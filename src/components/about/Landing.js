@@ -1,4 +1,3 @@
-import React from "react";
 import Sky from "../../../public/assets/about/sky.webp";
 import Image from "next/image";
 import comets from "../../../public/assets/about/comets.png";
@@ -29,7 +28,7 @@ const Landing = () => {
         <Image src={comets} className="rotate-90 hidden md:block" />
       </div>
       <div className="flex justify-center items-center w-screen h-1/2 flex-col">
-        <div className="text-center w-11/12 lg:w-4/12 font-montserrat text-base lg:text-xl font-black text-white z-20">
+        <div className="text-center w-11/12 lg:w-4/12 font-montserrat text-base lg:text-xl font-semibold text-white z-20">
           promoting and advancing the study and practice of aerospace
           engineering by providing an outlet for members to explore, develop and
           enhance their technical skills.

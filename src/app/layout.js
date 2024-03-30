@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Urbanist, Montserrat } from "next/font/google";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+
 export const metadata = {
   title: "HSP @ UCR",
   description: "Highlander Space Program Official Website",
