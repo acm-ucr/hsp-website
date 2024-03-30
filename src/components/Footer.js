@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "@/public/assets/FooterLogo.svg";
-import logo2 from "@/public/assets/logo.svg";
+import logo from "../../public/assets/FooterLogo.svg";
+import logo2 from "../../public/assets/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -26,24 +26,27 @@ const Footer = () => {
         <div className="grid grid-cols-2 text-2xl justify-center items-center lg:text-5xl text-white h-full hover:curson-pointer mr-4">
           <div className=" hidden md:flex justify-between flex-col items-center h-3/6">
             <Link
-              className="text-white "
+              className="text-white hover:!text-hsp-yellow"
               href="https://www.instagram.com/hspucr/"
             >
               <FaInstagram />
             </Link>
-            <Link className="text-white" href="https://discord.gg/nYrhvTPbZg">
+            <Link
+              className="text-white hover:!text-hsp-yellow"
+              href="https://discord.gg/nYrhvTPbZg"
+            >
               <FaDiscord />
             </Link>
           </div>
           <div className="hidden md:flex justify-between flex-col items-center h-3/6">
             <Link
-              className="text-white"
+              className="text-white hover:!text-hsp-yellow"
               href="https://www.youtube.com/channel/UCRf1mTeWrkKCJ3I1SxhkxNg"
             >
               <FaYoutube />
             </Link>
             <Link
-              className="text-white"
+              className="text-white hover:!text-hsp-yellow"
               href="mailto:highlanderspaceprogram@gmail.com"
             >
               <FaEnvelope />

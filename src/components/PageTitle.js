@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import starBackground from "@/public/assets/starBackground.webp";
+import starBackground from "../../public/assets/starBackground.webp";
 
 const PageTitle = ({ title }) => {
   return (

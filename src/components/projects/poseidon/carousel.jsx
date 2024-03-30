@@ -15,13 +15,13 @@ const Carousel = () => {
           </div>
         ))}
       </div>
-      <div className="flex absolute animate-marquee-continuation">
+      <div className="flex absolute animate-marquee-continuatio ">
         {carousel.map((image, index) => (
-          <div key={index} className="flex-grow items-stretch w-1/2 mx-4">
+          <div key={index} className="flex-grow items-stretch lg:w-1/2 mx-4">
             <Image
               src={image}
               alt="carousel"
-              className="object-coverh-full rounded-xl"
+              className="object-cover-full rounded-xl"
             />
           </div>
         ))}

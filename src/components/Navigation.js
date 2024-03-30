@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "../public/assets/logo.svg";
+import Logo from "../../public/assets/logo.svg";
 import Button from "@/components/Button";
 const Navigation = () => {
   const [selected, setSelected] = useState(null);

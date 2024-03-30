@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import image1 from "@/public/assets/projects/poseidon/combust.svg";
-import image2 from "@/public/assets/projects/poseidon/fluid.svg";
+import image1 from "../../../../public/assets/projects/poseidon/combust.svg";
+import image2 from "../../../../public/assets/projects/poseidon/fluid.svg";
 
 const Propulsion = () => {
   return (

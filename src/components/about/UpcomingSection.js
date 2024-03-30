@@ -1,9 +1,9 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import shootingStar from "@/public/assets/about/shootingStar.svg";
-import shootingStar2 from "@/public/assets/about/shootingStar2.svg";
-import bar from "@/public/assets/about/bar.svg";
+import shootingStar from "../../../public/assets/about/shootingStar.svg";
+import shootingStar2 from "../../../public/assets/about/shootingStar2.svg";
+import bar from "../../../public/assets/about/bar.svg";
 import Event from "../events/Event";
 import moment from "moment";
 import axios from "axios";
