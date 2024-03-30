@@ -1,5 +1,3 @@
-import React from "react";
-
 const Description = ({ title, texts }) => {
   return (
     <div className="p-4">
