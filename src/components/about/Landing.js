@@ -13,7 +13,7 @@ const Landing = () => {
       />
       <div className="w-screen h-1/2 bg-white flex justify-center items-center mt-10 relative">
         <Image src={comets} className="hidden md:block" />
-        <div classname="flex flex-col items-center ">
+        <div className="flex flex-col items-center">
           <div className="text-3xl text-black font-extralight flex lg:justify-start justify-center font-montserrat my-3">
             Welcome to:
           </div>
