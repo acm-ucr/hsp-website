@@ -1,7 +1,7 @@
-// import Event from "@/components/events/Event";
 import PageTitle from "@/components/PageTitle";
 import HeaderTitle from "@/components/board/Header";
 import UpcomingSection from "@/components/about/UpcomingSection";
+
 const page = () => {
   return (
     <div>
