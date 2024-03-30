@@ -13,7 +13,7 @@ const texts = [
     ],
   },
   {
-    heading: "A 501 ( C ) (3) organization",
+    heading: "A 501(c)(3) organization",
     para: [
       "You can support us by donating to our Dean’s Innovation Fund, which contributes to the success of our projects as well as UCR’s Bourns College of Engineering. Because the UCR foundation is a 501(c)(3), these donations are tax deductible in accordance to State and Federal law. We appreciate all considerations as the Dean’s Innovation Fund continues to be a driving factor of our growth.",
     ],

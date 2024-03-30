@@ -1,4 +1,3 @@
-import React from "react";
 import Description from "@/components/projects/poseidon/Description";
 import texts from "@/data/Poseidon/Poseidon";
 import Image from "next/image";

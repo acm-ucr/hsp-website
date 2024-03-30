@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../../public/assets/FooterLogo.svg";
 import logo2 from "../../public/assets/logo.svg";
 import Image from "next/image";
@@ -15,13 +14,13 @@ const Footer = () => {
       <div className="md:hidden flex justify-center items-center">
         <Image src={logo2} />
       </div>
-      <div className="grid lg:grid-cols-3 divide-x-4 divide-white justify-center items-center ">
-        <div className="text-sm lg:text-xl font-montserrat h-5/6 grid col-span-2 justify-center items-center mr-4 mb-3">
-          <div className="font-semibold flex lg:justify-end">contact us!</div>
-          <div className="font-semibold flex lg:justify-end">
+      <div className="grid lg:grid-cols-3 divide-x-4 divide-white justify-center items-center">
+        <div className="text-sm lg:text-xl font-montserrat grid col-span-2 justify-center items-center mr-4 mb-3 text-right">
+          <div className="font-semibold text-2xl">contact us</div>
+          <div>
             Winston Chung Hall, 446 N Campus Dr, <br /> Riverside, CA 92507
           </div>
-          <div className="font-semibold flex lg:justify-end">714-749-5576</div>
+          <div>714-749-5576</div>
         </div>
         <div className="grid grid-cols-2 text-2xl justify-center items-center lg:text-5xl text-white h-full hover:curson-pointer mr-4">
           <div className=" hidden md:flex justify-between flex-col items-center h-3/6">

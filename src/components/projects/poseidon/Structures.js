@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import image1 from "../../../../public/assets/projects/poseidon/structures1.svg";
 import image2 from "../../../../public/assets/projects/poseidon/structures2.svg";

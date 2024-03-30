@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import { MdEmail } from "react-icons/md";
 import { GrLinkedinOption } from "react-icons/gr";
@@ -27,10 +26,10 @@ const Profile = ({
         <div className="text-l font-urbanist">{title}</div>
         <div className="flex space-x-2 ">
           <Link href={"mailto:" + email}>
-            <MdEmail className="h-8 w-8 text-slate-800 " />
+            <MdEmail className="h-8 w-8 text-slate-800 hover:opacity-70" />
           </Link>
           <Link href={linkedin}>
-            <GrLinkedinOption className="h-7 w-7 text-slate-800 " />
+            <GrLinkedinOption className="h-7 w-7 text-slate-800 hover:opacity-70" />
           </Link>
         </div>
         <div className="text-l font-urbanist">

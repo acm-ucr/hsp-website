@@ -1,5 +1,3 @@
-import React from "react";
-
 const Descriptions = ({ title, texts }) => {
   return (
     <div className="flex flex-col">

@@ -1,4 +1,3 @@
-import React from "react";
 import Donate from "@/components/donate/Donate";
 import Description from "@/components/donate/Descriptions";
 import texts from "@/data/Donate";

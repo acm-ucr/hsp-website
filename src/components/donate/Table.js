@@ -1,5 +1,3 @@
-import React from "react";
-
 const Table = () => {
   return (
     <div className="text-center w-full flex flex-col justify-center items-center font-sans">

@@ -8,13 +8,9 @@ import Event from "../events/Event";
 import moment from "moment";
 import axios from "axios";
 import Button from "../about/Button";
-// import { momentLocalizer } from "react-big-calendar";
-// const mLocalizer = momentLocalizer(moment);
 
 const UpcomingSection = ({ showCurrent = false, showPast = false }) => {
   const [events, setEvents] = useState([]);
-  // const [date, setDate] = useState(new Date());
-  const size = 10;
 
   useEffect(() => {
     const startDate = moment().subtract(10, "weeks").toISOString();
@@ -22,7 +18,7 @@ const UpcomingSection = ({ showCurrent = false, showPast = false }) => {
 
     axios
       .get(
-        `https://www.googleapis.com/calendar/v3/calendars/${process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_EMAIL}/events?key=${process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY}&singleEvents=true&orderBy=starttime&timeMin=${startDate}&timeMax=${endDate}&maxResults=${size}`
+        `https://www.googleapis.com/calendar/v3/calendars/${process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_EMAIL}/events?key=${process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY}&singleEvents=true&orderBy=starttime&timeMin=${startDate}&timeMax=${endDate}&maxResults=10`
       )
       .then((response) => {
         const calendarEvents = response.data.items.map((a) => {
@@ -37,9 +33,9 @@ const UpcomingSection = ({ showCurrent = false, showPast = false }) => {
         });
 
         setEvents(calendarEvents);
-        console.log(events);
       });
-  }, [size]);
+  }, []);
+
   const upcoming = events.filter((e) => e.start >= new Date());
   const past = events.filter((e) => e.start <= new Date());
 
@@ -48,9 +44,6 @@ const UpcomingSection = ({ showCurrent = false, showPast = false }) => {
       {!showCurrent && !showPast && (
         <div className="flex justify-center">
           <Image src={bar} alt="Left Bar" className="h-full hidden md:block" />
-          {/* {barImages.map((pic, index) => (
-        <Image src={pic}/>
-      ))} */}
           <div className="flex flex-col justify-start items-center">
             <div className="flex justify-center items-start w-full  ">
               <Image
@@ -68,7 +61,6 @@ const UpcomingSection = ({ showCurrent = false, showPast = false }) => {
                 className="rotate-180 hidden md:block"
               />
             </div>
-            {console.log(events)};
             {upcoming.length !== 0 ? (
               upcoming.slice(0, 3).map((event, index) => (
                 <div className="flex w-8/12  my-3" key={index}>

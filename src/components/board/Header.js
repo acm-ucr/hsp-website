@@ -1,5 +1,3 @@
-import React from "react";
-
 const Header = ({ Name }) => {
   return (
     <div className="font-extralight text-center text-4xl lg:text-5xl font-montserrat w-full mt-4">
