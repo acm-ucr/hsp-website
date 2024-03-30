@@ -1,5 +1,5 @@
 import Link from "next/link";
-import bear from "@/public/assets/not-found/bear.svg";
+import bear from "../../public/assets/bear.png";
 import Image from "next/image";
 
 const error = () => {

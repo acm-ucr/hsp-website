@@ -1,4 +1,4 @@
-import Logo1 from "../../public/assets/donate/sponsors/gcap.svg";
+import Logo1 from "../../public/assets/donate/sponsors/gcap.png";
 
 const logos = [
   {

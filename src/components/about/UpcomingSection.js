@@ -1,9 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import shootingStar from "../../../public/assets/about/shootingStar.svg";
-import shootingStar2 from "../../../public/assets/about/shootingStar2.svg";
-import bar from "../../../public/assets/about/bar.svg";
+import shootingStar from "../../../public/assets/about/shootingStar.png";
+import bar from "../../../public/assets/about/bar.png";
 import Event from "../events/Event";
 import moment from "moment";
 import axios from "axios";
@@ -45,20 +44,20 @@ const UpcomingSection = ({ showCurrent = false, showPast = false }) => {
         <div className="flex justify-center">
           <Image src={bar} alt="Left Bar" className="h-full hidden md:block" />
           <div className="flex flex-col justify-start items-center">
-            <div className="flex justify-center items-start w-full  ">
+            <div className="flex justify-center items-start w-full mt-14">
               <Image
                 src={shootingStar}
                 alt="ShootingStar"
-                className="rotate-180 hidden md:block"
+                className=" hidden md:block "
               />
-              <div className="text-4xl lg:text-6xl font-montserrat font-extralight text-center mx-4 mt-14">
+              <div className="text-4xl lg:text-6xl font-montserrat font-extralight text-center mx-2">
                 {" "}
                 Upcoming Events{" "}
               </div>
               <Image
-                src={shootingStar2}
-                alt="ShootingStar2"
-                className="rotate-180 hidden md:block"
+                src={shootingStar}
+                alt="ShootingStar"
+                className=" rotate-180 hidden md:block "
               />
             </div>
             {upcoming.length !== 0 ? (
