@@ -1,14 +1,14 @@
-import Javen from "../../public/assets/board/Javen.png";
-import Jordy from "../../public/assets/board/Jordy.png";
-import Lawrence from "../../public/assets/board/Lawrence.png";
-import George from "../../public/assets/board/George.png";
-import Alan from "../../public/assets/board/Alan.png";
-import Joel from "../../public/assets/board/Joel.png";
-import Khulan from "../../public/assets/board/Khulan.png";
-import Marlon from "../../public/assets/board/Marlon.png";
-import Mehmet from "../../public/assets/board/Mehmet.png";
-import Theopolis from "../../public/assets/board/Theopolis.png";
-import Uma from "../../public/assets/board/Uma.png";
+import Javen from "../../public/assets/board/Javen.webp";
+import Jordy from "../../public/assets/board/Jordy.webp";
+import Lawrence from "../../public/assets/board/Lawrence.webp";
+import George from "../../public/assets/board/George.webp";
+import Alan from "../../public/assets/board/Alan.webp";
+import Joel from "../../public/assets/board/Joel.webp";
+import Khulan from "../../public/assets/board/Khulan.webp";
+import Marlon from "../../public/assets/board/Marlon.webp";
+import Mehmet from "../../public/assets/board/Mehmet.webp";
+import Theopolis from "../../public/assets/board/Theopolis.webp";
+import Uma from "../../public/assets/board/Uma.webp";
 
 export const BOARD = [
   [

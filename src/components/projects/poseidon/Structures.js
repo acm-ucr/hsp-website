@@ -1,6 +1,6 @@
 import Image from "next/image";
-import image1 from "../../../../public/assets/projects/poseidon/structures1.png";
-import image2 from "../../../../public/assets/projects/poseidon/structures2.png";
+import image1 from "../../../../public/assets/projects/poseidon/structures1.webp";
+import image2 from "../../../../public/assets/projects/poseidon/structures2.webp";
 const Structures = () => {
   return (
     <div className="text-center flex flex-col justify-center items-center  my-10">

@@ -1,6 +1,6 @@
-import Image1 from "../../public/assets/about/mission1.png";
-import Image2 from "../../public/assets/about/mission2.png";
-import Image3 from "../../public/assets/about/mission3.png";
+import Image1 from "../../public/assets/about/mission1.webp";
+import Image2 from "../../public/assets/about/mission2.webp";
+import Image3 from "../../public/assets/about/mission3.webp";
 
 const texts = [
   {

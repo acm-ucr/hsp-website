@@ -1,5 +1,5 @@
 import Link from "next/link";
-import bear from "../../public/assets/bear.png";
+import bear from "../../public/assets/bear.webp";
 import Image from "next/image";
 
 const error = () => {
