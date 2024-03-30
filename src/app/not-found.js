@@ -4,14 +4,17 @@ import Image from "next/image";
 
 const error = () => {
   return (
-    <div className=" flex flex-col my-20 items-center gap-8 justify-center">
+    <div className=" flex flex-col my-20 items-center gap-8 justify-center font-montserrat">
       <div className="flex flex-col items-center gap-2 text-center">
         <br />
-        <div className="text-2xl lg:text-4xl"> 404 Error: Page not found</div>
+        <div className="text-2xl lg:text-4xl font-bold">
+          {" "}
+          404 Error: Page Not Found
+        </div>
         <br />
-        <div className="text-xl lg:text-2xl ">
+        <div className="text-xl lg:text-2xl">
           This is uncharted territory. Please return to the
-          <Link href="/" className="px-2 underline hover:text-blue-700">
+          <Link href="/" className="px-2 underline hover:text-hsp-yellow">
             home
           </Link>
           page.
