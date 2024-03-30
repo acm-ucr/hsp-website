@@ -4,7 +4,8 @@ import Card2 from "@/components/join/Card2";
 import { MdGroups } from "react-icons/md";
 import { FaDiscord } from "react-icons/fa";
 import { FaBell } from "react-icons/fa";
-import Carousel from "@/components/projects/poseidon/carousel.jsx";
+import Carousel from "@/components/join/Carousel";
+
 const page = () => {
   return (
     <div className="items-center justify-center flex flex-col">
@@ -25,7 +26,6 @@ const page = () => {
           description="Following our socials will keep you updated on what's happening with HSP!"
           icon={<FaBell className="text-black justify pt-20" size={150} />}
         />
-        <div></div>
       </div>
       <div className="relative flex overflow-hidden justify-center w-full m-4 ">
         <Carousel />

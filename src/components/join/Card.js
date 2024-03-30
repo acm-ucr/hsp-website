@@ -23,7 +23,7 @@ const Card = ({ title, description, icon }) => {
         <div>{icon}</div>
       </div>
       <div className="flex justify justify-center font-montserrat text-xl lg:text-3xl font-extrabold text-blue-600 underline mt-5">
-        <Link href="www.google.com">Join Here</Link>
+        <Link href="https://discord.gg/nYrhvTPbZg">Join Here</Link>
       </div>
     </div>
   );
