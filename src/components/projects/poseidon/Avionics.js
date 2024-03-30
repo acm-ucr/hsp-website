@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import image1 from "../../../../public/assets/projects/poseidon/avionics1.svg";
-import image2 from "../../../../public/assets/projects/poseidon/avionics2.svg";
+import image1 from "../../../../public/assets/projects/poseidon/avionics1.png";
+import image2 from "../../../../public/assets/projects/poseidon/avionics2.png";
 
 const Avionics = () => {
   return (
-    <div className="text-center flex flex-col justify-center items-center bg-black my-10">
-      <div className="my-10 font-montserrat font-extrabold text-xl lg:text-3xl text-white flex flex-col">
+    <div className="text-center flex flex-col justify-center items-center bg-black my-10 py-6">
+      <div className="mb-10 font-montserrat font-extrabold text-xl lg:text-3xl text-white flex flex-col">
         {" "}
         Avionics Team
       </div>

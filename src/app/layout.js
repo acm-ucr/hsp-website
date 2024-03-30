@@ -22,19 +22,6 @@ const montserrat = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-montserrat",
 });
-// const mont = Mont({
-//   subsets: ["latin"],
-//   display: "swap",
-//   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-//   variable: "--font-mont",
-// });
-
-// const arial = Arial({
-//   subsets: ["latin"],
-//   display: "swap",
-//   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-//   variable: "--font-arial",
-// });
 
 export default function RootLayout({ children }) {
   return (

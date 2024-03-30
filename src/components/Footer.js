@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../public/assets/FooterLogo.svg";
-import logo2 from "../../public/assets/logo.svg";
+import logo2 from "../../public/assets/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 

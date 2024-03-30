@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import image from "../../../public/assets/about/aboutUs.svg";
+import image from "../../../public/assets/about/aboutUs.png";
 import { GrTopCorner } from "react-icons/gr";
 import { GrBottomCorner } from "react-icons/gr";
 
