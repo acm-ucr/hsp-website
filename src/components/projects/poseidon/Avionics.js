@@ -1,6 +1,6 @@
 import Image from "next/image";
-import image1 from "../../../../public/assets/projects/poseidon/avionics1.png";
-import image2 from "../../../../public/assets/projects/poseidon/avionics2.png";
+import image1 from "../../../../public/assets/projects/poseidon/avionics1.webp";
+import image2 from "../../../../public/assets/projects/poseidon/avionics2.webp";
 
 const Avionics = () => {
   return (

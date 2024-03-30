@@ -1,6 +1,6 @@
 import Sky from "../../../public/assets/about/sky.webp";
 import Image from "next/image";
-import comets from "../../../public/assets/about/comets.png";
+import comets from "../../../public/assets/about/comets.webp";
 import { FaChevronDown } from "react-icons/fa";
 const Landing = () => {
   return (

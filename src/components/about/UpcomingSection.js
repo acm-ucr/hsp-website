@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import shootingStar from "../../../public/assets/about/shootingStar.png";
-import bar from "../../../public/assets/about/bar.png";
+import shootingStar from "../../../public/assets/about/shootingStar.webp";
+import bar from "../../../public/assets/about/bar.webp";
 import Event from "../events/Event";
 import moment from "moment";
 import axios from "axios";
