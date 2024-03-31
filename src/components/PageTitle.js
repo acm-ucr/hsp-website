@@ -3,7 +3,7 @@ import starBackground from "../../public/assets/starBackground.webp";
 
 const PageTitle = ({ title }) => {
   return (
-    <div className="relative">
+    <div className="relative w-screen">
       <Image
         src={starBackground}
         alt="Star Background"

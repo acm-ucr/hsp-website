@@ -16,7 +16,7 @@ const page = () => {
   const newTexts = texts.slice(1, texts.length - 1);
 
   return (
-    <div className="flex justify-center flex-col items-center font-sans">
+    <div className="flex justify-center w-screen flex-col items-center font-sans ">
       <PageTitle title="SPONSORS" />
       <div className=" w-10/12 lg:w-7/12 justify-center">
         <div className="grid md:grid-cols-3 my-8 gap-4">
