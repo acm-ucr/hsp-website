@@ -24,9 +24,7 @@ const page = () => {
           description="Following our socials will keep you updated on what's happening with HSP!"
         />
       </div>
-      {/* <div className="relative flex overflow-hidden justify-center w-full h-full m-4 "> */}
       <Carousel />
-      {/* </div> */}
     </div>
   );
 };
