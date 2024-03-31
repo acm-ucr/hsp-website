@@ -3,26 +3,18 @@ import { carousel } from "@/data/Poseidon/carousel";
 
 const Carousel = () => {
   return (
-    <div className="relative flex overflow-hidden  scale-150 lg:scale-100 mb-10">
-      <div className="flex animate-marquee">
+    <div className="relative flex overflow-hidden w-screen scale-150 lg:scale-100 mb-10">
+      <div className="flex animate-marquee justify-evenly w-full">
         {carousel.map((image, index) => (
-          <div key={index} className="flex-grow items-stretch mx-1 sm:mx-4">
-            <Image
-              src={image}
-              alt="carousel"
-              className="object-cover h-full w-full rounded-xl"
-            />
+          <div key={index} className="">
+            <Image src={image} alt="carousel" className="rounded-xl" />
           </div>
         ))}
       </div>
-      <div className="flex absolute animate-marquee-continuation">
+      <div className="flex absolute animate-marquee-continuation justify-between w-full h-full">
         {carousel.map((image, index) => (
-          <div key={index} className=" flex-grow items-stretch mx-1 sm:mx-4">
-            <Image
-              src={image}
-              alt="carousel"
-              className="object-cover-full w-full rounded-xl"
-            />
+          <div key={index} className="">
+            <Image src={image} alt="carousel" className="rounded-xl" />
           </div>
         ))}
       </div>

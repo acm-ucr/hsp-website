@@ -1,5 +1,6 @@
 import Card from "@/components/join/Card";
 import { FaDiscord } from "react-icons/fa";
+// import Carousel from "@/components/join/Carousel";
 import Carousel from "@/components/join/Carousel";
 
 const page = () => {
