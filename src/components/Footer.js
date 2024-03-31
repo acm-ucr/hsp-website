@@ -1,5 +1,5 @@
 import logo from "../../public/assets/FooterLogo.svg";
-import logo2 from "../../public/assets/logo.svg";
+import logo2 from "../../public/assets/logo.webp";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,7 +16,7 @@ const Footer = () => {
       </div>
       <div className="grid lg:grid-cols-3 divide-x-4 divide-white justify-center items-center">
         <div className="text-sm lg:text-xl font-montserrat grid col-span-2 justify-center items-center mr-4 mb-3 text-right">
-          <div className="font-semibold text-2xl">contact us</div>
+          <div className="font-semibold text-lg lg:text-2xl">contact us</div>
           <div>
             Winston Chung Hall, 446 N Campus Dr, <br /> Riverside, CA 92507
           </div>

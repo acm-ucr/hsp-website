@@ -1,8 +1,8 @@
 /* eslint-disable camelcase */
 
-import Chung from "../../../public/assets/join/chung.svg";
-import rocket from "../../../public/assets/join/rocket.svg";
-import team from "../../../public/assets/join/team.svg";
-import working from "../../../public/assets/join/working.svg";
+import bourns from "../../../public/assets/join/bourns.webp";
+import rocket from "../../../public/assets/join/rocket.webp";
+import team from "../../../public/assets/join/team.webp";
+import working from "../../../public/assets/join/working.webp";
 
-export const carousel = [Chung, rocket, team, working];
+export const carousel = [bourns, rocket, team, working];

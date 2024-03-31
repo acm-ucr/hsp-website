@@ -4,8 +4,9 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "../../public/assets/logo.svg";
+import Logo from "../../public/assets/logo.webp";
 import Button from "@/components/Button";
+import { FaBars } from "react-icons/fa";
 
 const Navigation = () => {
   const [selected, setSelected] = useState("");
@@ -24,20 +25,20 @@ const Navigation = () => {
           href="/"
           onClick={() => setSelected("")}
         >
-          <Image
-            src={Logo}
-            width={100}
-            height={100}
-            className="h-[7vh]"
-            alt="HSP at UCR"
-          />
+          <Image src={Logo} className="h-[7vh]" alt="HSP at UCR" />
           <div className="text-white text-3xl md:text-5xl font-montserrat font-bold">
             HSP
           </div>
         </Link>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="navbar-nav" />
-      <Navbar.Collapse id="navbar-nav bg-purple-500 mx-4">
+      {/* <Navbar.Toggle aria-controls="navbar-nav" /> */}
+      <Navbar.Toggle
+        className="list-unstyled !text-transparent border-1 border-white mr-0"
+        aria-controls="basic-navbar-nav"
+      >
+        <FaBars className="text-white text-2xl" />
+      </Navbar.Toggle>
+      <Navbar.Collapse id="navbar-nav mx-4">
         <Nav className="mb-2 w-full md:w-6/12 ml-auto no-underline text-2xl">
           <Nav.Link
             as={Link}
