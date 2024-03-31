@@ -1,14 +1,14 @@
-import Javen from "@/public/assets/board/Javen.svg";
-import Jordy from "@/public/assets/board/Jordy.svg";
-import Lawrence from "@/public/assets/board/Lawrence.svg";
-import George from "@/public/assets/board/George.svg";
-import Alan from "@/public/assets/board/Alan.svg";
-import Joel from "@/public/assets/board/Joel.svg";
-import Khulan from "@/public/assets/board/Khulan.svg";
-import Marlon from "@/public/assets/board/Marlon.svg";
-import Mehmet from "@/public/assets/board/Mehmet.svg";
-import Theopolis from "@/public/assets/board/Theopolis.svg";
-import Uma from "@/public/assets/board/Uma.svg";
+import Javen from "../../public/assets/board/Javen.webp";
+import Jordy from "../../public/assets/board/Jordy.webp";
+import Lawrence from "../../public/assets/board/Lawrence.webp";
+import George from "../../public/assets/board/George.webp";
+import Alan from "../../public/assets/board/Alan.webp";
+import Joel from "../../public/assets/board/Joel.webp";
+import Khulan from "../../public/assets/board/Khulan.webp";
+import Marlon from "../../public/assets/board/Marlon.webp";
+import Mehmet from "../../public/assets/board/Mehmet.webp";
+import Theopolis from "../../public/assets/board/Theopolis.webp";
+import Uma from "../../public/assets/board/Uma.webp";
 
 export const BOARD = [
   [

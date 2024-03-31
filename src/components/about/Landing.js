@@ -1,7 +1,6 @@
-import React from "react";
-import Sky from "@/public/assets/about/sky.png";
+import Sky from "../../../public/assets/about/sky.webp";
 import Image from "next/image";
-import comets from "@/public/assets/about/comets.svg";
+import comets from "../../../public/assets/about/comets.webp";
 import { FaChevronDown } from "react-icons/fa";
 const Landing = () => {
   return (
@@ -13,7 +12,7 @@ const Landing = () => {
       />
       <div className="w-screen h-1/2 bg-white flex justify-center items-center mt-10 relative">
         <Image src={comets} className="hidden md:block" />
-        <div classname="flex flex-col items-center ">
+        <div className="flex flex-col items-center">
           <div className="text-3xl text-black font-extralight flex lg:justify-start justify-center font-montserrat my-3">
             Welcome to:
           </div>
@@ -29,7 +28,7 @@ const Landing = () => {
         <Image src={comets} className="rotate-90 hidden md:block" />
       </div>
       <div className="flex justify-center items-center w-screen h-1/2 flex-col">
-        <div className="text-center w-11/12 lg:w-4/12 font-montserrat text-base lg:text-xl font-black text-white z-20">
+        <div className="text-center w-11/12 lg:w-4/12 font-montserrat text-base lg:text-xl font-semibold text-white z-20">
           promoting and advancing the study and practice of aerospace
           engineering by providing an outlet for members to explore, develop and
           enhance their technical skills.

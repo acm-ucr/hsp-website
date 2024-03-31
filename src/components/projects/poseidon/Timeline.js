@@ -1,4 +1,3 @@
-import React from "react";
 import texts from "@/data/Poseidon/Timeline";
 
 const Timeline = () => {

@@ -1,4 +1,3 @@
-import React from "react";
 import Mission from "@/components/about/Mission";
 import Us from "@/components/about/Us";
 import texts from "@/data/Mission";

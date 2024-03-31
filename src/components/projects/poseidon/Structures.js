@@ -1,7 +1,6 @@
-import React from "react";
 import Image from "next/image";
-import image1 from "@/public/assets/projects/poseidon/structures1.svg";
-import image2 from "@/public/assets/projects/poseidon/structures2.svg";
+import image1 from "../../../../public/assets/projects/poseidon/structures1.webp";
+import image2 from "../../../../public/assets/projects/poseidon/structures2.webp";
 const Structures = () => {
   return (
     <div className="text-center flex flex-col justify-center items-center  my-10">
@@ -35,7 +34,7 @@ const Structures = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 justify-end items-center w-10/12 lg:w-7/12 ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 justify-end items-center w-10/12 lg:w-7/12">
         <div className="flex flex-col lg:text-right lg:justify-end lg:items-end">
           <div className="my-2 text-lg lg:text-2xl font-thin  font-montserrat">
             Aerostructures
