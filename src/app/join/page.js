@@ -4,8 +4,8 @@ import Carousel from "@/components/join/Carousel";
 
 const page = () => {
   return (
-    <div className="items-center justify-center flex flex-col">
-      <div className="grid grid-cols-1 lg:grid-cols-3 my-28 w-11/12 gap-4">
+    <div className="items-center justify-center flex flex-col ">
+      <div className="grid grid-cols-1 lg:grid-cols-3 my-28 w-11/12 gap-4 ">
         <Card
           title="Attend Meetings and Events"
           description="HSP regularly conducts meetings and work sessions that build towards competitions."
@@ -24,9 +24,9 @@ const page = () => {
           description="Following our socials will keep you updated on what's happening with HSP!"
         />
       </div>
-      <div className="relative flex overflow-hidden justify-center w-full m-4 ">
-        <Carousel />
-      </div>
+      {/* <div className="relative flex overflow-hidden justify-center w-full h-full m-4 "> */}
+      <Carousel />
+      {/* </div> */}
     </div>
   );
 };

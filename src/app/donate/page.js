@@ -18,7 +18,7 @@ const page = () => {
   return (
     <div className="flex justify-center flex-col items-center font-sans">
       <PageTitle title="SPONSORS" />
-      <div className=" w-7/12 justify-center">
+      <div className=" w-10/12 lg:w-7/12 justify-center">
         <div className="grid md:grid-cols-3 my-8 gap-4">
           <div className="hidden md:flex justify-center">
             <Image src={Image1} alt="building rocket" />
