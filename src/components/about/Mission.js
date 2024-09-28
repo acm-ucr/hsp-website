@@ -13,7 +13,7 @@ const Mission = ({ title, img, texts }) => {
       {texts.map((text, index) => (
         <div
           key={index}
-          className="font-montserrat text-white flex items-center text-center text-base lg:text-lg font-semibold mt-8 "
+          className="font-montserrat text-white flex items-end text-center text-base lg:text-lg font-semibold mt-8 "
         >
           <p>{text}</p>
         </div>

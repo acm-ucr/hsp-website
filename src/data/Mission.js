@@ -8,7 +8,6 @@ const texts = [
     img: Image1,
     para: [
       "HSP seeks to promote public awareness and interest in the field through various outreach activities, such as recorded demonstrations, tabling, and educational events.",
-      "Lorem ipsum dolor sit amet. Cum aspernatur illo a cupiditate dolorem quo illum maiores et corporis quae in molestias laborum nam corporis sunt. Non beatae ducimus qui animi quaerat ut placeat recusandae in perspiciatis",
     ],
   },
   {
@@ -23,8 +22,8 @@ const texts = [
     title: "our vision",
     img: Image3,
     para: [
-      "HSP is committed to maintaining an inclusive and welcoming environment that values diversity of thought and respects the rights and dignity of all its members. HSP shall operate in accordance with the relevant laws and regulations and shall be guided by its Constitution and Bylaws.",
-      "Lorem ipsum dolor sit amet. Cum aspernatur illo a cupiditate dolorem quo illum maiores",
+      "HSP is committed to maintaining an inclusive and welcoming environment that values diversity of thought and respects the rights and dignity of all its members.",
+      "HSP shall operate in accordance with the relevant laws and regulations and shall be guided by its Constitution and Bylaws.",
     ],
   },
 ];
