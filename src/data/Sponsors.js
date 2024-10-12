@@ -1,5 +1,5 @@
 import Logo1 from "../../public/assets/donate/sponsors/gcap.webp";
-import Logo2 from "../../public/assets/donate/sponsors/altium.png";
+import Logo2 from "../../public/assets/donate/sponsors/altium.webp";
 
 const logos = [
   {
