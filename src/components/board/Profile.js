@@ -19,16 +19,16 @@ const Profile = ({
       <Image
         src={image}
         alt="Picture of board member"
-        className="mt-3 mr-auto ml-auto"
+        className="mt-3 mr-auto ml-auto rounded-xl border-black border-3 h-[220px] w-[233px]"
       />
       <div className="ml-5">
         <div className="font-bold font-montserrat text-xl mt-3">{name}</div>
         <div className="text-l font-urbanist">{title}</div>
         <div className="flex space-x-2 ">
-          <Link href={"mailto:" + email}>
+          <Link href={"mailto:" + email} target="_blank">
             <MdEmail className="h-8 w-8 text-slate-800 hover:opacity-70" />
           </Link>
-          <Link href={linkedin}>
+          <Link href={linkedin} target="_blank">
             <GrLinkedinOption className="h-7 w-7 text-slate-800 hover:opacity-70" />
           </Link>
         </div>
