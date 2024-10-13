@@ -7,16 +7,15 @@ const Contact = () => {
       <div className=" font-sans text-base lg:text-lg mt-4">
         <div className="mb-4">highlanderspaceprogram@gmail.com </div>
 
-        <div className="font-extrabold">Javen Dosanjh</div>
+        <div className="font-extrabold">Brandon Tabata</div>
 
-        <div>President/Chief Engineer</div>
-        <div> jdos001@ucr.edu</div>
-        <div>(916)-840-8409</div>
+        <div>President</div>
+        <div>btaba002@ucr.edu</div>
 
-        <div className="font-extrabold mt-4">Jordy Hendra</div>
+        <div className="font-extrabold mt-4">Albert Dela Rosa</div>
 
         <div>Vice President</div>
-        <div>jhend060@ucr.edu</div>
+        <div>adela056@ucr.edu</div>
 
         <div className="mt-4">Winston Chung Hall, 446</div>
 
