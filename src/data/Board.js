@@ -1,15 +1,15 @@
-import Brandon from "../../public/assets/board/Brandon.png";
-import Stephanie from "../../public/assets/board/Stephanie.jpg";
-import Albert from "../../public/assets/board/Albert.jpg";
-import BrandonM from "../../public/assets/board/BrandonM.png";
-import Marcus from "../../public/assets/board/Marcus.png";
-import Alexander from "../../public/assets/board/Alexander.png";
+import Brandon from "../../public/assets/board/Brandon.webp";
+import Stephanie from "../../public/assets/board/Stephanie.webp";
+import Albert from "../../public/assets/board/Albert.webp";
+import BrandonM from "../../public/assets/board/BrandonM.webp";
+import Marcus from "../../public/assets/board/Marcus.webp";
+import Alexander from "../../public/assets/board/Alexander.webp";
 import Joel from "../../public/assets/board/Joel.webp";
 import Khulan from "../../public/assets/board/Khulan.webp";
 import Marlon from "../../public/assets/board/Marlon.webp";
 import Mehmet from "../../public/assets/board/Mehmet.webp";
 import Carlos from "../../public/assets/board/Carlos.JPG";
-import James from "../../public/assets/board/James.jpg";
+import James from "../../public/assets/board/James.webp";
 import Jaskaran from "../../public/assets/board/Jaskaran.JPG";
 
 export const BOARD = [
