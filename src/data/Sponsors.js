@@ -1,6 +1,6 @@
 import Logo1 from "../../public/assets/donate/sponsors/gcap.webp";
 import Logo2 from "../../public/assets/donate/sponsors/altium.webp";
-import Logo3 from "../../public/assets/donate/sponsors/labjack.png";
+import Logo3 from "../../public/assets/donate/sponsors/labjack.webp";
 const logos = [
   {
     img: Logo1,
