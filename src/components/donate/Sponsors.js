@@ -17,7 +17,7 @@ const Sponsors = ({ logos }) => {
             className="flex flex-wrap items-center  m-2 hover:cursor-pointer hover:scale-105"
           >
             <Link href={logos.link} target="_blank">
-              <Image src={logos.img} alt={""} width={250} height={200} />
+              <Image src={logos.img} alt={"logo"} width={250} height={200} />
             </Link>
           </div>
         ))}
